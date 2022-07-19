@@ -84,7 +84,7 @@
                         height:
                         100vh;">
             <div class="banner_text_1">
-                <h2>What are you Looking for</h2>
+              <h2>What are you Looking for</h2>
                 <p class="banner_text_paragraph" id="wrap0">Website
                     Development</p>
                 <p class="banner_text_paragraph" id="wrap1">Web
@@ -1033,14 +1033,14 @@
                 if (next === wrappers.length) {
                     next = 0;
                 }
-                wrappers.eq(index).hide(200);
+                wrappers.eq(index).hide();
                 // wrappers.eq(index).transition.fadeOut(200);
                 wrappers.eq(next).show();
                 index++;
                 if (index == wrappers.length) {
                     index = 0;
                 }
-            }, 1500);
+            }, 2000);
         });
     </script>
     <script>

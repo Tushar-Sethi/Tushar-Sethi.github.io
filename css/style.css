@@ -37,10 +37,17 @@ body[data-aos-duration='4000'] [data-aos], [data-aos][data-aos][data-aos-duratio
 
 }
 .banner_text_1{
-  width:30%;
+  padding:30px;
+  width:60%;
   /* height:50%; */
   color:white;
+  /* background:rgba(0,0,0,0.5); */
+  text-align:right;
   /* background-color:black; */
+}
+.banner_text_1 p{
+  font-size:1.5rem;
+  color:var(--heading);
 }
 
 .banner_text_2{
@@ -420,9 +427,6 @@ width:46%;
  
 
 @media screen and (max-width: 820px){
-  body{
-    overflow-x: hidden;
-  }
   .new_first_part{
     flex-direction: column;
     width: 90vw;
@@ -530,6 +534,9 @@ width:46%;
   }
 }
 @media screen and (max-width: 500px){
+  body{
+    overflow-x: hidden;
+  }
   .read_more_first_part_right{
     width:60%;
   }
