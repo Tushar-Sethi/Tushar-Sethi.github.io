@@ -17,7 +17,7 @@ nav{
     color:white;
     height:80px;
     width:100vw;
-    /* position:fixed; */
+    position:fixed;
     z-index:10;
 }
 
