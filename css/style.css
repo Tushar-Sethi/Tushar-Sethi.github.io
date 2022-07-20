@@ -537,6 +537,9 @@ width:46%;
   body{
     overflow-x: hidden;
   }
+  .banner_text_1{
+  width:90%;
+  }
   .read_more_first_part_right{
     width:60%;
   }

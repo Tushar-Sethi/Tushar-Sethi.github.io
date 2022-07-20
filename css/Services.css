@@ -343,12 +343,22 @@
     .technology_part_1 p {
         width:88%;
     }
+    .header{
+        flex-direction:column;
+    }
+    .header .services_banner_sub{
+        margin-top:100px;
+        margin-bottom:10px;
+        width:90%;
+    }
+    .header_Image_SVG{
+        width:90%;
+        margin-top:105px;
+        /* margin-bottom:0; */
+    }
 
 }
 @media screen and (max-width: 650px){
-    .services_container{
-        margin-top:60px;
-    }
     .actual_services{
         flex-direction:column;
     }
@@ -393,18 +403,7 @@
         height:auto;
         margin-bottom:20px;
     }
-    .header{
-        flex-direction:column;
-    }
-    .header .services_banner_sub{
-        margin-top:100px;
-        margin-bottom:10px;
-        width:90%;
-    }
-    .header_Image_SVG{
-        width:90%;
-        margin-top:5px;
-    }
+    
 }
 @media screen and (max-width: 520px){
     .Enquire_now{
@@ -414,6 +413,6 @@
         width:90%;
     }
     .technology_part{
-        height:60vh;
+        height:75vh;
     }
 }
