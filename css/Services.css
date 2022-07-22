@@ -232,6 +232,8 @@
 }
 
 .icons_to_contact p{
+    text-align:center;
+    self-align:center;
     width:100%;
     /* background:red; */
 }
