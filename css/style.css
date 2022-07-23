@@ -20,7 +20,7 @@
   /* overflow-x:hidden; */
   /* font-family: 'Permanent Marker', cursive; */
   /* font-family: 'Cinzel', serif; */
-  font-family: 'Baloo Bhai 2', cursive;
+  font-family: 'Baloo Bhai 2', cursive !important;
 
 
 }
