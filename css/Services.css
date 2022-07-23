@@ -5,6 +5,11 @@
   
   }
 
+  *{
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+
 .services_main_container{
     width: 100%;
     height: 100%;
