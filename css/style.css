@@ -39,37 +39,39 @@ body[data-aos-duration='4000'] [data-aos], [data-aos][data-aos][data-aos-duratio
 }
 .header1{
   /* position:relative; */
-  background:url("/static/Index_BG.jpg");
-  background-size:cover;
-  background-position:center;
-  background-repeat:no-repeat;
+  /* background:url("/static/Index_BG.jpg"); */
+  /* background-size:cover; */
+  /* background-position:center; */
+  /* background-repeat:no-repeat; */
   display:flex;
-  flex-wrap:wrap;
-  justify-content:space-evenly;
+  position:relative;
+  /* flex-wrap:wrap; */
+  /* justify-content:space-evenly; */
   align-items:center;
+  background-color:var(--bg);
 
 }
 .banner_text_1{
   padding:30px;
-  width:60%;
+  min-width:30%;
   /* height:50%; */
   color:white;
-  /* background:rgba(0,0,0,0.5); */
+  background:rgba(0,0,0,0.5);
   text-align:right;
+  z-index:1;
   /* background-color:black; */
 }
 .banner_text_1 p{
   font-size:1.5rem;
   color:var(--heading);
 }
-
-.banner_text_2{
-  width:50%;
-  height:50%;
-  color:white;
-  font-weight:bold;
-  font-size:34px;
-  /* background-color:red; */
+.video_div_header{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  object-fit:fill;
 }
 
 .index_first_part,
@@ -341,16 +343,27 @@ width:46%;
 }
 
 .seventh_part .right_seventh ul li{
-  justify-content: flex-start;
-  list-style: none;
   margin-top: 15px;
   color:var(--text);
-  
+  padding-left:10px;
+  self-align: center;
+  justify-content: center;
 }
-.seventh_part .right_seventh ul li img{
+.seventh_part .right_seventh ul li::marker{
+  color:var(--heading);
+  font-size:20px;
+  content: "\f064";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 700;
+  text-align: center;
+  self-align: center;
+  justify-content: center;
+}
+
+/* .seventh_part .right_seventh ul li img{
   margin-right: 13px;
   margin-left: 10px;
-}
+} */
 
 .eighth_part{
   display: flex;
@@ -417,10 +430,23 @@ width:46%;
 }
 
 .eighth_part1 .right_eight ul li{
-  list-style: none;
-  margin-top: 25px;
-  color: var(--text);
+  margin-top: 15px;
+  color:var(--text);
+  padding-left:10px;
+  self-align: center;
+  justify-content: center;
 }
+.eighth_part1 .right_eight ul li::marker{
+  color:var(--heading);
+  font-size:20px;
+  content: "\f064";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 700;
+  text-align: center;
+  self-align: center;
+  justify-content: center;   
+}
+
 
 .eighth_part .right_eight ul li img{
     margin-right: 13px;
