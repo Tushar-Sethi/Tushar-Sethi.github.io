@@ -22,10 +22,6 @@ body{
   overflow-x:hidden;
 }
 
-body[data-aos-duration='4000'] [data-aos], [data-aos][data-aos][data-aos-duration='4000']{
-  transition-duration: 1500ms;
-  }
-
 .main_container{
     display: flex;
     flex-direction:column ;
