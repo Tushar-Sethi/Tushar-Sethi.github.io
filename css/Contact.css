@@ -3,6 +3,7 @@
     --heading: #EC994B;
     --text: #F5EDDC;
     --gap_head_box:30px;
+    --font-family: 'Merienda', sans-serif;
   }
 
 
@@ -41,6 +42,7 @@
       background:rgba(0,0,0,0.7);
       color:white;
       border-radius: 15px;
+      font-family:var(--font-family);
   }
 
 .inner_main_container{
@@ -80,6 +82,7 @@
     margin:auto;
     align-self: center;
     text-align: center;
+    font-family:var(--font-family);
     /* border:1px solid yellow; */
 
 }
@@ -112,6 +115,7 @@
     padding:15px 5px;
     width:90%;
     margin:auto;
+    /* font-family:var(--font-family); */
 }
 .email_phone{
     color:var(--text);
@@ -126,6 +130,7 @@
 .inner_main_container .Enquiry_form_div{
     width:55%;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    font-family:var(--font-family);
 }
 
 .inner_main_container .second_Contact_div .third_contact_div_sub{

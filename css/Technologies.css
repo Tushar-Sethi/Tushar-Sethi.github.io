@@ -3,6 +3,7 @@
     --heading: #EC994B;
     --text: #F5EDDC;
     --gap_head_box:30px;
+    --font-family: 'Merienda', sans-serif;
   }
 
   *{
@@ -38,7 +39,7 @@ html,body{
     margin:auto;
     text-align: center;
     background:rgba(0,0,0,0.7);
-    
+    font-family:var(--font-family);
     border-radius: 15px;
 }
 .technology_main_container .technology_first_part_sub h1{
@@ -58,6 +59,7 @@ html,body{
     padding-top: 10px;
     padding-bottom: 40px;
     color:var(--text);
+    font-family:var(--font-family);
     /* margin-bottom:20px; */
 }
 
@@ -116,6 +118,7 @@ html,body{
     text-align: center;
     color:var(--text);
     box-sizing:border-box;
+    font-family:var(--font-family);
 }
 
 .technology_part h2{
@@ -191,8 +194,6 @@ html,body{
     .Tile_tech{
         width:45%;
     }
-    
-    
 
 }
 @media screen and (max-width: 650px){

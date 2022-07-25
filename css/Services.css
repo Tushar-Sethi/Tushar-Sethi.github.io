@@ -2,7 +2,7 @@
     --bg: #000;
     --heading: #EC994B;
     --text: #F5EDDC;
-  
+    --font-family: 'Merienda', sans-serif;
   }
 
   *{
@@ -37,6 +37,7 @@
     text-align: center;
     background:rgba(0,0,0,0.7);
     border-radius: 15px;
+    font-family:var(--font-family);
 }
 
 .services_main_container .services_banner_sub h1{
@@ -66,6 +67,8 @@
     self-align:center;
     text-align: center;
     /* margin-top:20px; */
+    font-family:var(--font-family);
+
 }
 
 .service_container_inner{
@@ -88,6 +91,8 @@
     background-color: var(--bg);
     box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5);
     border-radius:20px;
+    font-family:var(--font-family);
+
 }
 
 .actual_services .actual_services_images{
@@ -160,6 +165,8 @@
     background-attachment: fixed;
     position: relative;
     text-align: center;
+    font-family:var(--font-family);
+
     /* background-opacity:0.9; */
 }
 
@@ -179,7 +186,7 @@
 .technology_part_1 h1 {
     width:50%;
     margin:auto;
-    margin-top:6%;
+    margin-top:2%;
     color:var(--heading);
 }
 
@@ -414,6 +421,10 @@
 @media screen and (max-width: 520px){
     .Enquire_now{
         width:50%;
+    }
+
+    .technology_part_1 h1{
+        width:90%;
     }
     .technology_part_1 p{
         width:90%;

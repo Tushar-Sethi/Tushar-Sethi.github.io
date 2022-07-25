@@ -11,7 +11,7 @@
   --h5-mobile:16px;
   --p:16px;
   --p-mobile:14px;
-  --font-family: 'I-Need-Coffee', cursive;
+  --font-family: 'Merienda', sans-serif;
 }
 
 *{
@@ -605,7 +605,8 @@ font-family:var(--font-family);
     overflow-x: hidden;
   }
   .banner_text_1{
-  width:90%;
+  width:100%;
+  margin:auto;
   }
   .read_more_first_part_right{
     width:60%;
