@@ -121,8 +121,10 @@ font-family:var(--font-family);
   font-size:20px;
   font-weight:bold;
   color:var(--heading);
-  background-color: var(--text);
-  /* border-radius: 10px; */
+  background-color:var(--bg);
+  /* background-color: var(--text); */
+  border-radius: 10px;
+  border:2px solid var(--heading);
   padding:10px;
 }
 .read_more_first_part_right:hover,
@@ -222,7 +224,7 @@ font-family:var(--font-family);
 }
 .flip-card-front h5{
   color:var(--text);
-  text-decoration:underline;
+  /* text-decoration:underline; */
   font-size:var(--h5);
 
 }

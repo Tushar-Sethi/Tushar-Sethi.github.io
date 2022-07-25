@@ -1,8 +1,17 @@
+:root {
+  --bg: #000;
+  --heading: #EC994B;
+  --text: #F5EDDC;
+  --gap_head_box:30px;
+  --font-family: 'Merienda', sans-serif;
+}
+
 .vl {
     border-left: 3px solid orange;
     margin-top: 43px;
     height: 270px;
   }
+  
   
   .footer{
     position:relative;
@@ -15,6 +24,8 @@
     /* text-align: center; */
     color: white;
     padding:20px;
+    font-family:var(--font-family);
+
   }
   
   .footer_start{
@@ -40,6 +51,7 @@
   .footer_middle h2,
   .footer_right h2{
     text-align:center;
+    color:var(--heading);
   }
   .footer .footer_left_1{
     display:flex;
@@ -112,6 +124,8 @@
     border:1px solid black;
     padding:10px;
     margin-top:10px;
+
+    
   }
   .toggle-send-message-notification,
   .toggle-send-message-notification-error,

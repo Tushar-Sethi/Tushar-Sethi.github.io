@@ -142,9 +142,13 @@
     /* font-size:20px; */
     font-weight:bold;
     color:var(--heading);
-    background-color: var(--text);
+    /* background-color: var(--text); */
     /* border-radius: 10px; */
     padding:10px;
+    background-color:var(--bg);
+  /* background-color: var(--text); */
+  border-radius: 10px;
+  border:2px solid var(--heading);
   }
   
   .Enquire_now:hover,
@@ -201,12 +205,17 @@
     margin-top:30px;
     /* color:white; */
     /* background-color:black; */
-    border:2px solid white;
+    /* border:2px solid white; */
     color:var(--heading);
-  background-color: var(--text);
-    border-radius:10px;
+  /* background-color: var(--text); */
+    /* border-radius:10px; */
     padding:10px 25px;
     font-weight:bold;
+
+    background-color:var(--bg);
+  /* background-color: var(--text); */
+  border-radius: 10px;
+  border:2px solid var(--heading);
 
 }
 
