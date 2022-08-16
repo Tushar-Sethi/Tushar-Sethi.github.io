@@ -44,6 +44,9 @@
       border-radius: 15px;
       font-family:var(--font-family);
   }
+  .Contact_us_Banner_text h1{
+    color: var(--heading);
+  }
 
 .inner_main_container{
     background-color:var(--bg);
@@ -237,7 +240,7 @@
     position:absolute;
     width:100%;
     height:100%;
-    background: url("/static/Loader.gif");
+    background: url("/static/Load.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

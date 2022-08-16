@@ -40,6 +40,11 @@
     font-family:var(--font-family);
 }
 
+.About_us_Banner_text h1{
+  color: var(--heading);
+}
+
+
 .hl{
   border-bottom:2px solid orange;
   width:12%;

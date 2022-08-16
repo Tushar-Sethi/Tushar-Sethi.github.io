@@ -123,15 +123,14 @@
   }
 
   .preloader{
-    background: url("/static/Loader.gif");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 102%;
+    background: url("/static/loading.gif");
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    height: 202%;
     width: 100%;
     position: absolute;
     visibility: hidden;
-    /* display: none; */
   }
 
   @media screen and (max-width: 820px){

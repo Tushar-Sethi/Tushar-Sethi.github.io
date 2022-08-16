@@ -6,7 +6,7 @@
   --font-family: 'Merienda', sans-serif;
 }
 
-.vl {
+.vl { 
     border-left: 3px solid orange;
     margin-top: 43px;
     height: 270px;
@@ -137,7 +137,7 @@
   }
 
   .preloader{
-    background: url("/static/Loader.gif");
+    background: url("/static/Load.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
