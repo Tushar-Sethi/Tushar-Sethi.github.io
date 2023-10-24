@@ -1,8 +1,10 @@
 :root {
   /* --bg: #06283D; */
-  --bg: #000;
-  --heading: #EC994B;
-  --text: #F5EDDC;
+  --bg: white;
+  /* --bg1:#e5f2f6; */
+  /* --heading: #EC994B; */
+  --heading:#4285F4;
+  --text: #000;
   --h1:36px;
   --h1-mobile:24px;
   --h4:24px;
@@ -11,7 +13,10 @@
   --h5-mobile:16px;
   --p:16px;
   --p-mobile:14px;
-  --font-family: 'Merienda', sans-serif;
+  /* --font-family: 'Merienda', sans-serif; */
+  --font-family: 'Open Sans', sans-serif;
+  --box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  
 }
 
 *{
@@ -80,7 +85,7 @@ body{
   margin-top: 20px;
   justify-content: space-between;
   padding:20px;
-  box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5);
+  box-shadow: var(--box-shadow);
   /* background-color: black; */
   border-radius:20px;
   margin-bottom:20px;
@@ -160,7 +165,7 @@ font-family:var(--font-family);
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-  box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5);
+  box-shadow: var(--box-shadow);
   border-radius:20px;
 }
 
@@ -274,6 +279,7 @@ font-family:var(--font-family);
   position: absolute;
   width: 100%;
   height: 100%;
+  box-shadow: var(--box-shadow);
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
   border-radius:20px;
@@ -281,6 +287,7 @@ font-family:var(--font-family);
 
 .flip-card-back {
   background:rgba(255,255,255,0.3);
+  
   /* background-color: ; */
   color: white;
   transform: rotateY(180deg);
@@ -309,7 +316,7 @@ font-family:var(--font-family);
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
-  box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5);
+  box-shadow: var(--box-shadow);
   border-radius:20px;
   
 font-family:var(--font-family);
@@ -373,7 +380,7 @@ font-family:var(--font-family);
   margin: auto;
   margin-top:20px ;
   justify-content: space-between;
-  box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5);
+  box-shadow: var(--box-shadow);
   border-radius:20px;
   margin-bottom:50px;
   
@@ -519,14 +526,16 @@ font-family:var(--font-family);
   }
   .third_part .third_part_left_side{
     width:90%;
-    marin:auto;
+    margin:auto;
     margin-bottom:20px;
   }
   .third_part .technology_cards{
     width:100%;
+    
   }
   .third_part .technology_cards .flip-card-back p{
     width:90%;
+    box-shadow: var(--box-shadow);
     margin:auto;
   }
   .seventh_part{

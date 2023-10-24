@@ -1,8 +1,10 @@
 :root {
-    --bg: #000;
-    --heading: #EC994B;
-    --text: #F5EDDC;
-    --font-family: 'Merienda', sans-serif;
+    --bg: #fff;
+    --heading: #4285F4;
+    --text: #000;
+    /* --font-family: 'Merienda', sans-serif; */
+    --font-family: 'Open Sans', sans-serif;
+    --box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.3);
   }
 
   *{
@@ -41,14 +43,14 @@
 }
 
 .services_main_container .services_banner_sub h1{
-    color:var(--heading);
+    color:#fff;
 }
 
 
 .services_main_container .services_banner_sub p{
     width:80%;
     margin:auto;
-    color:var(--text);
+    color:#fff;
 }
 
 .services_main_container .services_container{
@@ -61,7 +63,7 @@
 }
 
 .services_main_container .services_container h4{
-    color:var(--heading);
+    color:#000;
     padding:20px 0px;
     /* margin:20px auto; */
     self-align:center;
@@ -89,7 +91,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: var(--bg);
-    box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5);
+    box-shadow: var(--box-shadow);
     border-radius:20px;
     font-family:var(--font-family);
 
@@ -191,14 +193,14 @@
     width:50%;
     margin:auto;
     margin-top:2%;
-    color:var(--heading);
+    color:#fff;
 }
 
 .technology_part_1 p {
     width:50%;
     margin:auto;
     margin-top:30px;
-    color:var(--text);
+    color:#fff;
 }
 
 .contact_us_button{
