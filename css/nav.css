@@ -145,6 +145,7 @@ nav .logo{
         padding:7px 10px;
         font-size:12px;
     }
+    
 }
 
 
@@ -203,6 +204,12 @@ nav .logo{
         }
         .Large_LOGO{
             display:none;
+        }
+        .logo_design{
+            /* margin-left:20px; */
+            margin-left:0;
+            width: 90%;
+            height: 80%;
         }
     }
 
