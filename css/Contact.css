@@ -1,11 +1,12 @@
 :root {
-    --bg: #000;
-    --heading: #EC994B;
-    --text: #F5EDDC;
+    --bg: #fff;
+    --heading: #4285F4;
+    --text: #000;
     --gap_head_box:30px;
-    --font-family: 'Merienda', sans-serif;
+    --font-family: 'Open Sans', sans-serif;
+    --box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    
   }
-
 
 *{
     box-sizing:border-box;
@@ -45,7 +46,7 @@
       font-family:var(--font-family);
   }
   .Contact_us_Banner_text h1{
-    color: var(--heading);
+    color: #fff;
   }
 
 .inner_main_container{
@@ -144,7 +145,7 @@
     width:40px;
     margin-right:10px;
     text-align:center;
-    self-align  : center;
+    self-align:center;
 }
 
 
@@ -160,6 +161,7 @@
 .Enquiry_form_div h2{
     margin-bottom:10px;
     color:var(--heading);
+    margin-top:10px;
 }
 
 .Enquiry_form_div p{
@@ -180,6 +182,7 @@
 .Enquiry_form_div .form_enquiry{
     width:90%;
     margin:auto;
+
     display:flex;
     flex-wrap:wrap;
     justify-content:space-evenly;
@@ -221,14 +224,16 @@
     margin-bottom:30px;
     text-align:center;
     border:none;
-    color:var(--heading);
-    background-color: var(--text);
+    color:#fff;
+    background-color: var(--heading);
     padding:10px;
 }
+
 .Enquiry_form_div .form_enquiry button:hover,
-.Enquiry_form_div .form_enquiry button:focus{
+.Enquiry_form_div .form_enquiry button:focus
+{
     background-color:var(--heading);
-    color:var(--text);
+    color:#fff;
   
   }
 

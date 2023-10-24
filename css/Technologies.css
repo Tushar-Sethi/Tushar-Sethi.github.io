@@ -1,9 +1,11 @@
 :root {
-    --bg: #000;
-    --heading: #EC994B;
-    --text: #F5EDDC;
+    --bg: #fff;
+    --heading: #4285F4;
+    --text: #000;
     --gap_head_box:30px;
-    --font-family: 'Merienda', sans-serif;
+    /* --font-family: 'Merienda', sans-serif; */
+    --font-family: 'Open Sans', sans-serif;
+    --box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.3);
   }
 
   *{
@@ -43,12 +45,12 @@ html,body{
     border-radius: 15px;
 }
 .technology_main_container .technology_first_part_sub h1{
-    color:var(--heading);
+    color:#fff;
 }
 .technology_main_container .technology_first_part_sub p{
     width:80%;
     margin:auto;
-    color:var(--text);
+    color:#fff;
 }
 
 .fifth_part{
@@ -60,13 +62,15 @@ html,body{
     padding-bottom: 40px;
     color:var(--text);
     font-family:var(--font-family);
+    box-shadow: var(--box-shadow);
     /* margin-bottom:20px; */
 }
 
 .fifth_part h1{
     margin-top:20px;
     margin-bottom:var(--gap_head_box);
-    color:var(--heading);
+    color:#000;
+    font-weight: 700;
 }
 
 .fifth_part_inner{
@@ -74,7 +78,7 @@ html,body{
     flex-direction: column;
     width: 80%;
     margin:auto;
-    box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5);
+    box-shadow: var(--box-shadow);
     border-radius:20px;
 }
 
@@ -85,7 +89,7 @@ html,body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    box-shadow: 0px 0px 10px #000;
+    /* box-shadow: 0px 0px 10px #000; */
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -130,7 +134,7 @@ html,body{
 
 .technology_part_inside{
     width:80%;
-    box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5);
+    box-shadow: var(--box-shadow);
     margin:auto;
     padding-top:20px;
     border-radius:20px;
@@ -155,7 +159,8 @@ html,body{
     width:30%;
     /* width:30%; */
     margin:10px 15px;
-    background:rgba(255,255,255,0.3);
+    /* background:rgba(255,255,255,0.3); */
+    box-shadow: var(--box-shadow);
     padding:20px;
     border-radius:15px;
 }
@@ -168,6 +173,7 @@ html,body{
 
 .Tile_tech h5{
     color:var(--heading);
+    font-weight:900;
 }
 .contact_us_button{
     margin-top:30px;
