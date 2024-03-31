@@ -31,6 +31,7 @@ function sendMail(Email='',Message=''){
         method: 'POST',
         url: 'https://formsubmit.co/ajax/b9537c3f03e44091165fdc6133e61292',
         dataType: 'json',
+        crossDomain: true,
         accepts: 'application/json',
         data: {
             Email: Email,
@@ -63,6 +64,7 @@ function ContactFormMail(Name='',Email='',Phone='',Service='',Message=''){
         method: 'POST',
         url: 'https://formsubmit.co/ajax/b9537c3f03e44091165fdc6133e61292',
         dataType: 'json',
+        crossDomain: true,
         accepts: 'application/json',
         data: {
             Name: Name,
