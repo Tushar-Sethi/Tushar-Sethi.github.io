@@ -522,7 +522,7 @@ body {
   }
   .third_part .technology_cards .flip-card-back p {
     width: 90%;
-    box-shadow: var(--box-shadow);
+    /* box-shadow: var(--box-shadow); */
     margin: auto;
   }
   .seventh_part {
