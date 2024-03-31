@@ -1,466 +1,411 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home - Alpha Tech Innovators</title>
-    <link rel="icon" href="/static/ICON.png">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/nav.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="icon" href="/static/ICON.png" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/all.min.css" />
     <!-- <link rel="stylesheet" href="/css/aos.css"> -->
-    <link rel="stylesheet" href="/css/style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda&display=swap"
+      rel="stylesheet" />
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <!-- Navbar -->
     <div class="main_container">
-
       <nav class="navigation testing">
-
-        <input type="checkbox" id="check">
+        <input type="checkbox" id="check" />
         <label for="check" class="checkbtn">
-            <i class="fa fa-bars"></i>
+          <i class="fa fa-bars"></i>
         </label>
         <label for="check" class="closebtn">
-            <i class="fas fa-times"></i>
+          <i class="fas fa-times"></i>
         </label>
 
-
         <label class="logo">
-            <!-- <a href="/index.html">
+          <!-- <a href="/index.html">
             <svg id="SVG_Logo" class="small_LOGO" width="180" height="80" viewBox="270 90 2 250">
                 <path width="100px" height="100px" stroke="#EC994B" fill="none" stroke-width="4" id="Color_Fill_1" data-name="Color Fill 1" class="cls-1" d="M128.75,126.643v99.25c0,52.25,26,72,60.5,72,36.5,0,63.75-21.25,63.75-73v-98.25H231v99.75c0,37.25-16,53.75-41,53.75-22.5,0-39.25-16-39.25-53.75v-99.75h-22ZM404,272.393c-8.75,4.25-22.25,7-35.5,7-41,0-64.75-26.5-64.75-67.75,0-44.25,26.25-69.5,65.75-69.5,14,0,25.75,3,34,7l5.25-17.75c-5.75-3-19-7.5-40-7.5-52.25,0-88,35.75-88,88.5,0,55.25,35.75,85.25,83.25,85.25,20.5,0,36.5-4,44.5-8Z"/>
               </svg>
             </a> -->
-            <!-- <a href="/index.html">
+          <!-- <a href="/index.html">
               <svg id="SVG_Logo" class="Large_LOGO" style="background:black; margin:auto; margin-top:0;" width="100%" height="70" viewBox="-50 200 1900 400">
                 <path stroke="#EC994B" fill="none" stroke-width="6" id="Color_Fill_2" data-name="Color Fill 2" class="cls-2" d="M67.383,333.862v85.059q0,12.209-8.4,12.207-8.693,0-8.691-12.207V333.862H10.645v85.156q0,24.9,11.963,38.184t34.521,13.281q22.655,0,36.279-13.672t13.623-36.523V333.862H67.383ZM215.234,415.8q0-21.094-9.863-32.911-12.6-15.135-33.5-15.136a41.254,41.254,0,0,0-30.86,13.037q-12.6,13.036-12.6,32.08v54.3h36.523V412.182q0-8.4,6.836-8.4,6.933,0,6.934,8.4v54.981h36.523V415.8Zm57.812-24.414v-3.321q0-8.5,3.76-13.086t10.693-4.59c0.391,0,1.009.034,1.856,0.1V332.2l-3.906-.1a46.844,46.844,0,0,0-25.733,7.959,49.855,49.855,0,0,0-18.408,20.557q-4.786,9.864-4.785,23.828v82.715h36.523v-37.5h16.309V391.382H273.046Zm41.406-9.034q-15.039,14.6-15.039,35.987a48.673,48.673,0,0,0,15.039,35.888,51.517,51.517,0,0,0,72.412.049,50.513,50.513,0,0,0,.2-71.631q-14.8-14.891-35.5-14.892Q329.491,367.749,314.452,382.348Zm46.192,25.684a15.111,15.111,0,0,1-.049,20.752,13.694,13.694,0,0,1-19.922,0,15.111,15.111,0,0,1-.049-20.752A13.918,13.918,0,0,1,360.644,408.032Zm56.445-74.17v133.3h36.523v-133.3H417.089ZM534.96,413.647q0,19.434-14.063,19.434a13.97,13.97,0,0,1-10.058-4.053,13.023,13.023,0,0,1-4.2-9.717,13.81,13.81,0,0,1,4.052-10.01,13.1,13.1,0,0,1,9.717-4.15,14.566,14.566,0,0,1,8.984,3.516V368.432q-6.543-.585-9.765-0.586-20.313,0-35.156,15.039T469.628,418.53q0,21.291,14.941,35.937t36.719,14.649a50.563,50.563,0,0,0,21.338-4.785,47.925,47.925,0,0,0,17.138-12.891q11.72-14.062,11.719-36.426V333.862H534.96v79.785ZM590.721,369.8v97.363h36.524V369.8H590.721Zm5.518-38.233a17.28,17.28,0,0,0-.293,24.854,20.109,20.109,0,0,0,26.269,0,17.281,17.281,0,0,0-.292-24.854A18.4,18.4,0,0,0,596.239,331.567ZM735.545,415.8q0-21.094-9.863-32.911-12.6-15.135-33.5-15.136a41.251,41.251,0,0,0-30.859,13.037q-12.6,13.036-12.6,32.08v54.3h36.523V412.182q0-8.4,6.836-8.4,6.933,0,6.934,8.4v54.981h36.523V415.8Zm66.113,12.988a12.747,12.747,0,0,1-9.326-3.711,12.5,12.5,0,0,1-3.759-9.277,12.972,12.972,0,0,1,3.955-9.327,12.506,12.506,0,0,1,9.228-4.052q12.4,0,12.4,15.332V454.37q0,12.109-5.371,18.6t-15.234,6.494a29.79,29.79,0,0,1-14.453-3.906v33.2q11.034,3.612,18.262,3.613,23.73,0,38.525-16.259t14.8-42.334V421.753q0-24.317-9.961-37.11a41.079,41.079,0,0,0-16.406-12.3,53.82,53.82,0,0,0-21.875-4.59q-21.486,0-36.231,14.355t-14.746,35.254q0,19.337,12.256,32.715t29.932,13.379a43.552,43.552,0,0,0,15.136-2.93v-33.5a15.391,15.391,0,0,1-7.129,1.758h0Zm204.542-5.176q-7.47,7.521-20.069,7.52-12.4,0-20.508-8.545t-8.106-21.631q0-13.573,8.252-22.363t20.948-8.789q19.922,0,27.053,21.874l42.48-2.832q-5.67-24.609-19.34-38.378-19.725-19.923-49.217-19.922-29.98,0-50.439,20.312t-20.459,50.1q0,29.589,20.068,49.56t49.854,19.971q29.3,0,47.513-17.578t22.31-49.8l-41.5-1.074Q1013.66,416.089,1006.2,423.608Zm108.64-55.859q-19.245,0-30.76,12.549t-11.52,33.642v53.223h36.52V420.971q0-15.234,9.96-15.234a14.348,14.348,0,0,1,6.93,2.148V368.823a74.669,74.669,0,0,0-11.13-1.074h0Zm117.97,49.8q0-21.093-14.4-35.5-14.415-14.4-35.6-14.4-21.675,0-36.57,14.746t-14.89,36.133q0,21.485,14.74,36.035t36.43,14.551a51.071,51.071,0,0,0,32.32-11.426l-20.8-25q-5.085,5.47-10.55,5.469a12.773,12.773,0,0,1-10.89-5.86q-4.14-5.859-4.15-15.332,0-9.081,4.3-14.892a13.265,13.265,0,0,1,11.13-5.811q10.26,0,12.21,10.84h-18.55a25.563,25.563,0,0,0-.49,17.285h55.37q0.39-4.687.39-6.836h0Zm59.96,15.625a12.924,12.924,0,0,1-9.67-3.906,14.364,14.364,0,0,1,10.35-24.121,12.388,12.388,0,0,1,10.11,4.59q3.765,4.592,3.76,12.305v45.117h36.52V419.409q0-23.925-13.62-37.744t-37.25-13.819q-21.2,0-35.99,14.746a48.843,48.843,0,0,0-14.8,35.938q0,21.779,14.65,36.23t36.62,14.453a48.359,48.359,0,0,0,8.21-.781V430.639a16.587,16.587,0,0,1-8.89,2.539h0Zm68.36-99.316v79.98q0,20.8,8.4,33.4a47.254,47.254,0,0,0,17.63,15.625,49.605,49.605,0,0,0,23.38,5.761q1.365,0,4.2-.1V430.151q-9.765,0-13.42-4.4-3.675-4.393-3.67-16.015h16.41V371.167h-16.41v-37.3h-36.52Zm70.9,35.938v97.363h36.52V369.8h-36.52Zm5.52-38.233a17.288,17.288,0,0,0-.3,24.854,20.111,20.111,0,0,0,26.27,0,17.276,17.276,0,0,0-.29-24.854A18.392,18.392,0,0,0,1437.55,331.567Zm61.57,50.781q-15.045,14.6-15.04,35.987a48.659,48.659,0,0,0,15.04,35.888,51.514,51.514,0,0,0,72.41.049,50.52,50.52,0,0,0,.2-71.631q-14.805-14.891-35.5-14.892Q1514.15,367.749,1499.12,382.348Zm46.19,25.684a15.112,15.112,0,0,1-.05,20.752,13.691,13.691,0,0,1-19.92,0,15.112,15.112,0,0,1-.05-20.752,13.314,13.314,0,0,1,9.96-4.248A13.454,13.454,0,0,1,1545.31,408.032Zm143.26,7.764q0-21.094-9.86-32.911-12.6-15.135-33.5-15.136a41.264,41.264,0,0,0-30.86,13.037q-12.6,13.036-12.6,32.08v54.3h36.53V412.182q0-8.4,6.83-8.4,6.945,0,6.94,8.4v54.981h36.52V415.8Zm71.29-44.629q-19.05,0-29.79,10.449-6.15,5.958-8.15,12.012t-2.78,21q-0.585,9.18-4.35,12.841t-12.55,3.663h-1.66V469.8h5.08q18.84,0,29.1-6.054,19.335-11.62,21.88-39.844,0.78-8.5,3.66-11.377t10.59-2.881V371.167h-11.03Z"/>
               </svg>
             </a> -->
-            <a href="/index.html"><img class = "logo_design" src="/static/icons/ATI_BLACK.png" alt=""></a>
-            </label>
+          <a href="/index.html"
+            ><img class="logo_design" src="/static/icons/ATI_BLACK.png" alt=""
+          /></a>
+        </label>
         <ul class="ul">
-            <li><a href="/index.html" class="links" 
-                style="
-                background-color: #4285F4;
-                color:white;">Home</a></li>
-            <li><a href="/HTML/Services.html" class="links">Services</a></li>
-            <li><a href="/HTML/Technologies.html" class="links">Technologies</a></li>
-            <li><a href="/HTML/AboutUs.html" class="links">About us</a></li>
-            <li><a href="/HTML/Contact.html" class="links">Contact us</a></li>
+          <li>
+            <a
+              href="/index.html"
+              class="links"
+              style="background-color: #4285f4; color: white"
+              >Home</a
+            >
+          </li>
+          <li><a href="/HTML/Services.html" class="links">Services</a></li>
+          <li>
+            <a href="/HTML/Technologies.html" class="links">Technologies</a>
+          </li>
+          <li><a href="/HTML/AboutUs.html" class="links">About us</a></li>
+          <li><a href="/HTML/Contact.html" class="links">Contact us</a></li>
         </ul>
-    </nav>
+      </nav>
 
-        <br>
+      <br />
 
-        <div class="header1 finisher-header1" style="width: 100vw; height: 100vh;">
-            <div class="banner_text_1">
-              <h2>What are you Looking for</h2>
-                <p class="banner_text_paragraph" id="wrap0">Website
-                    Development</p>
-                <p class="banner_text_paragraph" id="wrap1">Web
-                    Design</p>
-                <p class="banner_text_paragraph" id="wrap2">Website
-                    Maintaince</p>
-                <p class="banner_text_paragraph" id="wrap3">SEO</p>
-                <p class="banner_text_paragraph" id="wrap4">Digital
-                    Marketing</p>
-            </div>
-            <div class="video_div_header">
-              <video autoplay muted loop playsinline style="height: 100%; width: 100%; object-fit: cover;">
-                <source src="/static/video-2.mp4" type="video/mp4"> 
-                <!-- <source src="/static/video-1.mp4" type="video/mp4"> -->
-              </video>
-            </div>
+      <div class="header1 finisher-header1" style="width: 100vw; height: 100vh">
+        <div class="banner_text_1">
+          <h2>What are you Looking for</h2>
+          <p class="banner_text_paragraph" id="wrap0">Website Development</p>
+          <p class="banner_text_paragraph" id="wrap1">Web Design</p>
+          <p class="banner_text_paragraph" id="wrap2">Website Maintaince</p>
+          <p class="banner_text_paragraph" id="wrap3">SEO</p>
+          <p class="banner_text_paragraph" id="wrap4">Digital Marketing</p>
+          <p class="banner_text_paragraph" id="wrap4">AI/ML Integration</p>
         </div>
-
-        <div class="index_first_part">
-            <div class="new_first_part">
-                <div class="first_part_left">
-                    <img src="/static/Collab.jpg" alt="">
-                </div>
-                <div class="first_part_right">
-                    <h1>About Us</h1>
-                    <h4>Website Designing Company</h4>
-                    <p>Alpha Tech Innovators is a leading website
-                        design, SEO
-                        company, and Web development company
-                        that specializes in web designing, search
-                        engine
-                        optimization, web application development,
-                        and
-                        eCommerce solutions. We are a web design
-                        company
-                        that focuses on the user experience.
-                        Whether you are building a new website from
-                        scratch
-                        or redesigning a website or you want us to
-                        maintain it for you, Our dedicated team of
-                        web developers, web designers, and SEO
-                        experts will
-                        provide unmatched quality and expertise to
-                        your project.</p>
-                    <a href="/HTML/AboutUs.html"><button class="read_more_first_part_right">Read
-                            More</button></a>
-                </div>
-            </div>
+        <div class="video_div_header">
+          <video
+            autoplay
+            muted
+            loop
+            playsinline
+            style="height: 100%; width: 100%; object-fit: cover">
+            <source src="/static/video-2.mp4" type="video/mp4" />
+            <!-- <source src="/static/video-1.mp4" type="video/mp4"> -->
+          </video>
         </div>
+      </div>
 
-        <div class="index_second_part">
-            <div class="third_part">
-                <div class="third_part_left_side">
-                    <a href="/HTML/Services.html">
-                        <h1>Discover our
-                            Services</h1>
-                    </a>
-                    <hr>
-                    <h4>We Are Expert in Search Engine & Social
-                        Media
-                        Optimization.</h4>
-                    <p> <em> Alpha Tech Innovators </em> is India’s
-                        top Web Designing,
-                        Development and SEO Company. <br> We provide
-                        complete Web
-                        Solutions and also consult & implement your
-                        entire
-                        Website Design, Development & Web Promotion
-                        strategy.
-                    </p>
-                    <!-- <a href="/HTML/Services.html"><button class="btn Explore_services">Explore More</button></a> -->
-                </div>
-
-                <div class="technology_cards">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <object data="/static/Dev.svg" class="svg"></object>
-                                <!-- <img src="/static/icons/development.jpg" alt=""> -->
-                                <h5>Web Development</h5>
-                            </div>
-                            <div class="flip-card-back">
-                                <h5 class="flip_card_back_h5">Web
-                                    Development</h5>
-                                <p>Your website is the first
-                                    impression you make to potential
-                                    clients.
-                                    You want a website that will
-                                    represent
-                                    your
-                                    company within seconds of people
-                                    viewing
-                                    it.
-                                    Now, more than ever before it is
-                                    imperative
-                                    to select a website designing
-                                    company</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <object data="/static/Design.svg" class="svg"></object>
-                                <!-- <img src="/static/icons/design.jpg" alt=""> -->
-                                <h5>Web Design</h5>
-                            </div>
-                            <div class="flip-card-back">
-                                <h5 class="flip_card_back_h5">Web
-                                    Design</h5>
-                                <p>Modern web design is more
-                                    involved than
-                                    creating an attractive website.
-                                    Consideration of
-                                    user experience, search engine
-                                    optimization, ease of use, and
-                                    technical
-                                    details are just
-                                    a few elements that are involved
-                                    in
-                                    developing a website that is
-                                    designed to
-                                    perform in
-                                    today’s competitive marketplace.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <object data="/static/SEO.svg" class="svg"></object>
-                                <!-- <img src="/static/icons/SEO.png" alt=""> -->
-                                <h5>SEO</h5>
-                            </div>
-                            <div class="flip-card-back">
-                                <h5 class="flip_card_back_h5">SEO</h5>
-                                <p>Search Engine Optimization -
-                                    Ranking First and higher growth
-                                    is
-                                    always everybody's goal. Alpha Tech Innovators
-                                    team realize your goal and makes
-                                    it
-                                    reality by our SEO Services.
-                                    We have planned strategy and
-                                    protocol.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <object data="/static/Maintain.svg" class="svg"></object>
-                                <!-- <img src="/static/icons/Maintaince.jpg" alt=""> -->
-                                <h5>Website Maintaince</h5>
-                            </div>
-                            <div class="flip-card-back">
-                                <h5 class="flip_card_back_h5">Website
-                                    Maintaince</h5>
-                                <p>We can provide you with ongoing,
-                                    reliable
-                                    and affordable website
-                                    maintenance and
-                                    support solutions, delivered in
-                                    a timely
-                                    and professional manner. Whether
-                                    you're
-                                    a small, home-based business or
-                                    a
-                                    larger, corporate or government.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <object data="/static/Domain.svg" class="svg"></object>
-                                <!-- <img src="/static/icons/Hosting.png" alt=""> -->
-                                <h5>Web Hosting and Domain</h5>
-                            </div>
-                            <div class="flip-card-back">
-                                <h5 class="flip_card_back_h5">Web
-                                    Hosting
-                                    and Domain</h5>
-                                <p>We also provide services in Web
-                                    Hosting
-                                    and Domain Registration in
-                                    making your
-                                    website accessible in World Wide
-                                    Web,
-                                    assisting in choosing a unique
-                                    domain
-                                    for
-                                    registering. It is essential to
-                                    have a
-                                    website as it represents your
-                                    business.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <object data="/static/Marketing.svg" class="svg"></object>
-                                <!-- <img src="/static/icons/development.jpg" alt=""> -->
-                                <h5>Social Media Marketing</h5>
-                            </div>
-                            <div class="flip-card-back">
-                                <h5 class="flip_card_back_h5">Social
-                                    Media
-                                    Marketing</h5>
-                                <p>social media serves as a
-                                    relatively
-                                    inexpensive platform for
-                                    organizations
-                                    to
-                                    implement marketing campaigns.
-                                    Social
-                                    networking websites allow
-                                    individuals to
-                                    interact with one another and
-                                    build
-                                    relationships.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+      <div class="index_first_part">
+        <div class="new_first_part">
+          <div class="first_part_left">
+            <img src="/static/Collab.jpg" alt="" />
+          </div>
+          <div class="first_part_right">
+            <h1>About Us</h1>
+            <h4>Website Designing Company</h4>
+            <p>
+              Alpha Tech Innovators is a leading website design, SEO company,
+              and Web development company that specializes in web designing,
+              search engine optimization, web application development, and
+              eCommerce solutions. We are a web design company that focuses on
+              the user experience. Whether you are building a new website from
+              scratch or redesigning a website or you want us to maintain it for
+              you, Our dedicated team of web developers, web designers, and SEO
+              experts will provide unmatched quality and expertise to your
+              project.
+            </p>
+            <a href="/HTML/AboutUs.html"
+              ><button class="read_more_first_part_right">Read More</button></a
+            >
+          </div>
         </div>
+      </div>
 
-        <div class="index_third_part">
-            <div class="seventh_part">
-                <div class="left_seventh">
-                    <img src="/static/design_a_website.gif" alt="">
+      <div class="index_second_part">
+        <div class="third_part">
+          <div class="third_part_left_side">
+            <a href="/HTML/Services.html">
+              <h1>Discover our Services</h1>
+            </a>
+            <hr />
+            <h4>We Are Expert in Search Engine & Social Media Optimization.</h4>
+            <p>
+              <em> Alpha Tech Innovators </em> is India’s top Web Designing,
+              Development and SEO Company. <br />
+              We provide complete Web Solutions and also consult & implement
+              your entire Website Design, Development & Web Promotion strategy.
+            </p>
+            <!-- <a href="/HTML/Services.html"><button class="btn Explore_services">Explore More</button></a> -->
+          </div>
+
+          <div class="technology_cards">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <object data="/static/Dev.svg" class="svg"></object>
+
+                  <h5>Web Development</h5>
                 </div>
-                <div class="right_seventh">
-                    <div class="right_seventh_part1">
-                        <h1>How we design a website ?</h1>
-                        <p>
-                            We Try to provide a your with a website
-                            that can deliver personalizations
-                            and real-time experiences and this has
-                            led to many transformations in the
-                            website development landscape and
-                            criteria to choose a cutting edge
-                            technology
-                            for your website.
-                            We use latest, modern technologies to
-                            build consumer-facing and
-                            enterprise-grade websites,
-                            and which are well positioned to be a
-                            strategic business partner to deliver
-                            business value.
-                        </p>
-                    </div>
-                    <ul>
-                        <li>
-                            <!-- <img src="/static/icons/tick.png" alt=""> -->
-                            Save Time With Premium Drag and Drop
-                            Page
-                            Builder
-                        </li>
-                        <li>
-                            <!-- <img src="/static/icons/tick.png" alt=""> -->
-                            Intuitive Inline Frontend Editor
-                        </li>
-                        <li>
-                            <!-- <img src="/static/icons/tick.png" alt=""> -->
-                            Backend Editor loaded with Features
-                        </li>
-                        <li>
-                            <!-- <img src="/static/icons/tick.png" alt=""> -->
-                            Easily Change Images in the Website
-                        </li>
-                        <li>
-                            <!-- <img src="/static/icons/tick.png" alt=""> -->
-                            Easily Change Content on the Website
-                        </li>
-                    </ul>
+                <div class="flip-card-back">
+                  <h5 class="flip_card_back_h5">Web Development</h5>
+                  <p>
+                    Your website is the first impression you make to potential
+                    clients. You want a website that will represent your company
+                    within seconds of people viewing it. Now, more than ever
+                    before it is imperative to select a website designing
+                    company
+                  </p>
                 </div>
-            </div>
-        </div>
-
-        <div class="index_fourth_part">
-            <div class="eighth_part">
-                <div class="eight_part_start">
-                    <h1>Website Maintaince and Development Services
-                        Gurgaon</h1>
-                    <p>Once a website is designed and developed, it
-                        requires
-                        maintenance since technology is ever
-                        evolving,
-                        new fixes and security updates are released
-                        every
-                        day to make websites more secure and hack
-                        proof.
-                        We also offer website maintenance services
-                        after
-                        website designing or to any of your current
-                        websites.</p>
-                    <hr>
-                </div>
-                <div class="eighth_part1">
-                    <div class="left_eight">
-                        <img src="/static/Website_maintaince.gif" alt="">
-                    </div>
-                    <div class="right_eight">
-                        <ul>
-                            <li>
-                                <!-- <img src="/static/icons/tick.png" alt=""> -->
-                                Website Backups
-                            </li>
-                            <li>
-                                <!-- <img src="/static/icons/tick.png" alt=""> -->
-                                Website Errors
-                            </li>
-                            <li>
-                                <!-- <img src="/static/icons/tick.png" alt=""> -->
-                                software Updates and Fixes
-                            </li>
-                            <li>
-                                <!-- <img src="/static/icons/tick.png" alt=""> -->
-                                Check for Broken Links
-                            </li>
-                            <li>
-                                <!-- <img src="/static/icons/tick.png" alt=""> -->
-                                Making Current website Responsive
-                            </li>
-                            <li>
-                                <!-- <img src="/static/icons/tick.png" alt=""> -->
-                                Optimize site Speed
-                            </li>
-                            <li>
-                                <!-- <img src="/static/icons/tick.png" alt=""> -->
-                                Website Security
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="last_second_part">
-
-            <div class="carousel_last_second_part">
-                <div id="carouselExampleControls" class="carousel
-                                slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <p>“There are three responses to a piece
-                                of
-                                design –
-                                <br> Yes,
-                                <br>No
-                                <br>and WOW!<br>
-
-                                and Wow is the one we aim for”
-                            </p>
-                        </div>
-                        <div class="carousel-item"><br><br>
-                            <p>“Websites promote you 24/7: No
-                                employee
-                                will do that.”</p>
-                        </div>
-                        <div class="carousel-item"><br>
-                            <p>We are a team of web designers and
-                                developers that
-                                passionately believe in the power of
-                                the
-                                web.
-                                Get Started Today!
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
+              </div>
             </div>
 
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <object data="/static/Design.svg" class="svg"></object>
+                  <!-- <img src="/static/icons/design.jpg" alt=""> -->
+                  <h5>Web Design</h5>
+                </div>
+                <div class="flip-card-back">
+                  <h5 class="flip_card_back_h5">Web Design</h5>
+                  <p>
+                    Modern web design is more involved than creating an
+                    attractive website. Consideration of user experience, search
+                    engine optimization, ease of use, and technical details are
+                    just a few elements that are involved in developing a
+                    website that is designed to perform in today’s competitive
+                    marketplace.
+                  </p>
+                </div>
+              </div>
+            </div>
 
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <object data="/static/SEO.svg" class="svg"></object>
+                  <!-- <img src="/static/icons/SEO.png" alt=""> -->
+                  <h5>SEO</h5>
+                </div>
+                <div class="flip-card-back">
+                  <h5 class="flip_card_back_h5">SEO</h5>
+                  <p>
+                    Search Engine Optimization - Ranking First and higher growth
+                    is always everybody's goal. Alpha Tech Innovators team
+                    realize your goal and makes it reality by our SEO Services.
+                    We have planned strategy and protocol.
+                  </p>
+                </div>
+              </div>
+            </div>
 
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <object data="/static/Maintain.svg" class="svg"></object>
+                  <!-- <img src="/static/icons/Maintaince.jpg" alt=""> -->
+                  <h5>Website Maintaince</h5>
+                </div>
+                <div class="flip-card-back">
+                  <h5 class="flip_card_back_h5">Website Maintaince</h5>
+                  <p>
+                    We can provide you with ongoing, reliable and affordable
+                    website maintenance and support solutions, delivered in a
+                    timely and professional manner. Whether you're a small,
+                    home-based business or a larger, corporate or government.
+                  </p>
+                </div>
+              </div>
+            </div>
 
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <object data="/static/Domain.svg" class="svg"></object>
+                  <!-- <img src="/static/icons/Hosting.png" alt=""> -->
+                  <h5>Web Hosting and Domain</h5>
+                </div>
+                <div class="flip-card-back">
+                  <h5 class="flip_card_back_h5">Web Hosting and Domain</h5>
+                  <p>
+                    We also provide services in Web Hosting and Domain
+                    Registration in making your website accessible in World Wide
+                    Web, assisting in choosing a unique domain for registering.
+                    It is essential to have a website as it represents your
+                    business.
+                  </p>
+                </div>
+              </div>
+            </div>
 
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <object data="/static/Marketing.svg" class="svg"></object>
+                  <!-- <img src="/static/icons/development.jpg" alt=""> -->
+                  <h5>Social Media Marketing</h5>
+                </div>
+                <div class="flip-card-back">
+                  <h5 class="flip_card_back_h5">Social Media Marketing</h5>
+                  <p>
+                    social media serves as a relatively inexpensive platform for
+                    organizations to implement marketing campaigns. Social
+                    networking websites allow individuals to interact with one
+                    another and build relationships.
+                  </p>
+                </div>
+              </div>
+            </div>
 
+            <div class="technology_cards">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <object data="/static/Dev.svg" class="svg"></object>
+                      
+                      
+                      <h5>AI/ML Integration / Products Development</h5>
+                    </div>
+                    
+                    <div class="flip-card-back">
+                      <h5 class="flip_card_back_h5">AI/ML Dev</h5>
+                      <p>
+                        Welcome to our AI/ML services hub, where expertise meets innovation, delivering tailored solutions driving efficiency, insight, and transformative growth.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+          </div>
         </div>
+      </div>
 
-        <div class="footer">
-            <div class="footer_start common_footer">
+      <div class="index_third_part">
+        <div class="seventh_part">
+          <div class="left_seventh">
+            <img src="/static/design_a_website.gif" alt="" />
+          </div>
+          <div class="right_seventh">
+            <div class="right_seventh_part1">
+              <h1>How we design a website ?</h1>
+              <p>
+                We Try to provide a your with a website that can deliver
+                personalizations and real-time experiences and this has led to
+                many transformations in the website development landscape and
+                criteria to choose a cutting edge technology for your website.
+                We use latest, modern technologies to build consumer-facing and
+                enterprise-grade websites, and which are well positioned to be a
+                strategic business partner to deliver business value.
+              </p>
+            </div>
+            <ul>
+              <li>
+                <!-- <img src="/static/icons/tick.png" alt=""> -->
+                Save Time With Premium Drag and Drop Page Builder
+              </li>
+              <li>
+                <!-- <img src="/static/icons/tick.png" alt=""> -->
+                Intuitive Inline Frontend Editor
+              </li>
+              <li>
+                <!-- <img src="/static/icons/tick.png" alt=""> -->
+                Backend Editor loaded with Features
+              </li>
+              <li>
+                <!-- <img src="/static/icons/tick.png" alt=""> -->
+                Easily Change Images in the Website
+              </li>
+              <li>
+                <!-- <img src="/static/icons/tick.png" alt=""> -->
+                Easily Change Content on the Website
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-                <!-- <svg id="SVG_Logo" class="SVG_logo_Class" width="100%" height="80" viewBox="270 110 20
+      <div class="index_fourth_part">
+        <div class="eighth_part">
+          <div class="eight_part_start">
+            <h1>Website Maintaince and Development Services</h1>
+            <p>
+              Once a website is designed and developed, it requires maintenance
+              since technology is ever evolving, new fixes and security updates
+              are released every day to make websites more secure and hack
+              proof. We also offer website maintenance services after website
+              designing or to any of your current websites.
+            </p>
+            <hr />
+          </div>
+          <div class="eighth_part1">
+            <div class="left_eight">
+              <img src="/static/Website_maintaince.gif" alt="" />
+            </div>
+            <div class="right_eight">
+              <ul>
+                <li>
+                  <!-- <img src="/static/icons/tick.png" alt=""> -->
+                  Website Backups
+                </li>
+                <li>
+                  <!-- <img src="/static/icons/tick.png" alt=""> -->
+                  Website Errors
+                </li>
+                <li>
+                  <!-- <img src="/static/icons/tick.png" alt=""> -->
+                  software Updates and Fixes
+                </li>
+                <li>
+                  <!-- <img src="/static/icons/tick.png" alt=""> -->
+                  Check for Broken Links
+                </li>
+                <li>
+                  <!-- <img src="/static/icons/tick.png" alt=""> -->
+                  Making Current website Responsive
+                </li>
+                <li>
+                  <!-- <img src="/static/icons/tick.png" alt=""> -->
+                  Optimize site Speed
+                </li>
+                <li>
+                  <!-- <img src="/static/icons/tick.png" alt=""> -->
+                  Website Security
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="last_second_part">
+        <div class="carousel_last_second_part">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p>
+                  “There are three responses to a piece of design – <br />
+                  Yes, <br />No <br />and WOW!<br />
+
+                  and Wow is the one we aim for”
+                </p>
+              </div>
+              <div class="carousel-item">
+                <br /><br />
+                <p>“Websites promote you 24/7: No employee will do that.”</p>
+              </div>
+              <div class="carousel-item">
+                <br />
+                <p>
+                  We are a team of web designers and developers that
+                  passionately believe in the power of the web. Get Started
+                  Today!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footer_start common_footer">
+          <!-- <svg id="SVG_Logo" class="SVG_logo_Class" width="100%" height="80" viewBox="270 110 20
                                 200" style="background-color:black;">
                     <path stroke="#EC994B" fill="none" stroke-width="4" id="Color_Fill_1" data-name="Color Fill 1"
                         class="cls-1"
@@ -472,9 +417,11 @@
                         class="cls-2"
                         d="M67.383,333.862v85.059q0,12.209-8.4,12.207-8.693,0-8.691-12.207V333.862H10.645v85.156q0,24.9,11.963,38.184t34.521,13.281q22.655,0,36.279-13.672t13.623-36.523V333.862H67.383ZM215.234,415.8q0-21.094-9.863-32.911-12.6-15.135-33.5-15.136a41.254,41.254,0,0,0-30.86,13.037q-12.6,13.036-12.6,32.08v54.3h36.523V412.182q0-8.4,6.836-8.4,6.933,0,6.934,8.4v54.981h36.523V415.8Zm57.812-24.414v-3.321q0-8.5,3.76-13.086t10.693-4.59c0.391,0,1.009.034,1.856,0.1V332.2l-3.906-.1a46.844,46.844,0,0,0-25.733,7.959,49.855,49.855,0,0,0-18.408,20.557q-4.786,9.864-4.785,23.828v82.715h36.523v-37.5h16.309V391.382H273.046Zm41.406-9.034q-15.039,14.6-15.039,35.987a48.673,48.673,0,0,0,15.039,35.888,51.517,51.517,0,0,0,72.412.049,50.513,50.513,0,0,0,.2-71.631q-14.8-14.891-35.5-14.892Q329.491,367.749,314.452,382.348Zm46.192,25.684a15.111,15.111,0,0,1-.049,20.752,13.694,13.694,0,0,1-19.922,0,15.111,15.111,0,0,1-.049-20.752A13.918,13.918,0,0,1,360.644,408.032Zm56.445-74.17v133.3h36.523v-133.3H417.089ZM534.96,413.647q0,19.434-14.063,19.434a13.97,13.97,0,0,1-10.058-4.053,13.023,13.023,0,0,1-4.2-9.717,13.81,13.81,0,0,1,4.052-10.01,13.1,13.1,0,0,1,9.717-4.15,14.566,14.566,0,0,1,8.984,3.516V368.432q-6.543-.585-9.765-0.586-20.313,0-35.156,15.039T469.628,418.53q0,21.291,14.941,35.937t36.719,14.649a50.563,50.563,0,0,0,21.338-4.785,47.925,47.925,0,0,0,17.138-12.891q11.72-14.062,11.719-36.426V333.862H534.96v79.785ZM590.721,369.8v97.363h36.524V369.8H590.721Zm5.518-38.233a17.28,17.28,0,0,0-.293,24.854,20.109,20.109,0,0,0,26.269,0,17.281,17.281,0,0,0-.292-24.854A18.4,18.4,0,0,0,596.239,331.567ZM735.545,415.8q0-21.094-9.863-32.911-12.6-15.135-33.5-15.136a41.251,41.251,0,0,0-30.859,13.037q-12.6,13.036-12.6,32.08v54.3h36.523V412.182q0-8.4,6.836-8.4,6.933,0,6.934,8.4v54.981h36.523V415.8Zm66.113,12.988a12.747,12.747,0,0,1-9.326-3.711,12.5,12.5,0,0,1-3.759-9.277,12.972,12.972,0,0,1,3.955-9.327,12.506,12.506,0,0,1,9.228-4.052q12.4,0,12.4,15.332V454.37q0,12.109-5.371,18.6t-15.234,6.494a29.79,29.79,0,0,1-14.453-3.906v33.2q11.034,3.612,18.262,3.613,23.73,0,38.525-16.259t14.8-42.334V421.753q0-24.317-9.961-37.11a41.079,41.079,0,0,0-16.406-12.3,53.82,53.82,0,0,0-21.875-4.59q-21.486,0-36.231,14.355t-14.746,35.254q0,19.337,12.256,32.715t29.932,13.379a43.552,43.552,0,0,0,15.136-2.93v-33.5a15.391,15.391,0,0,1-7.129,1.758h0Zm204.542-5.176q-7.47,7.521-20.069,7.52-12.4,0-20.508-8.545t-8.106-21.631q0-13.573,8.252-22.363t20.948-8.789q19.922,0,27.053,21.874l42.48-2.832q-5.67-24.609-19.34-38.378-19.725-19.923-49.217-19.922-29.98,0-50.439,20.312t-20.459,50.1q0,29.589,20.068,49.56t49.854,19.971q29.3,0,47.513-17.578t22.31-49.8l-41.5-1.074Q1013.66,416.089,1006.2,423.608Zm108.64-55.859q-19.245,0-30.76,12.549t-11.52,33.642v53.223h36.52V420.971q0-15.234,9.96-15.234a14.348,14.348,0,0,1,6.93,2.148V368.823a74.669,74.669,0,0,0-11.13-1.074h0Zm117.97,49.8q0-21.093-14.4-35.5-14.415-14.4-35.6-14.4-21.675,0-36.57,14.746t-14.89,36.133q0,21.485,14.74,36.035t36.43,14.551a51.071,51.071,0,0,0,32.32-11.426l-20.8-25q-5.085,5.47-10.55,5.469a12.773,12.773,0,0,1-10.89-5.86q-4.14-5.859-4.15-15.332,0-9.081,4.3-14.892a13.265,13.265,0,0,1,11.13-5.811q10.26,0,12.21,10.84h-18.55a25.563,25.563,0,0,0-.49,17.285h55.37q0.39-4.687.39-6.836h0Zm59.96,15.625a12.924,12.924,0,0,1-9.67-3.906,14.364,14.364,0,0,1,10.35-24.121,12.388,12.388,0,0,1,10.11,4.59q3.765,4.592,3.76,12.305v45.117h36.52V419.409q0-23.925-13.62-37.744t-37.25-13.819q-21.2,0-35.99,14.746a48.843,48.843,0,0,0-14.8,35.938q0,21.779,14.65,36.23t36.62,14.453a48.359,48.359,0,0,0,8.21-.781V430.639a16.587,16.587,0,0,1-8.89,2.539h0Zm68.36-99.316v79.98q0,20.8,8.4,33.4a47.254,47.254,0,0,0,17.63,15.625,49.605,49.605,0,0,0,23.38,5.761q1.365,0,4.2-.1V430.151q-9.765,0-13.42-4.4-3.675-4.393-3.67-16.015h16.41V371.167h-16.41v-37.3h-36.52Zm70.9,35.938v97.363h36.52V369.8h-36.52Zm5.52-38.233a17.288,17.288,0,0,0-.3,24.854,20.111,20.111,0,0,0,26.27,0,17.276,17.276,0,0,0-.29-24.854A18.392,18.392,0,0,0,1437.55,331.567Zm61.57,50.781q-15.045,14.6-15.04,35.987a48.659,48.659,0,0,0,15.04,35.888,51.514,51.514,0,0,0,72.41.049,50.52,50.52,0,0,0,.2-71.631q-14.805-14.891-35.5-14.892Q1514.15,367.749,1499.12,382.348Zm46.19,25.684a15.112,15.112,0,0,1-.05,20.752,13.691,13.691,0,0,1-19.92,0,15.112,15.112,0,0,1-.05-20.752,13.314,13.314,0,0,1,9.96-4.248A13.454,13.454,0,0,1,1545.31,408.032Zm143.26,7.764q0-21.094-9.86-32.911-12.6-15.135-33.5-15.136a41.264,41.264,0,0,0-30.86,13.037q-12.6,13.036-12.6,32.08v54.3h36.53V412.182q0-8.4,6.83-8.4,6.945,0,6.94,8.4v54.981h36.52V415.8Zm71.29-44.629q-19.05,0-29.79,10.449-6.15,5.958-8.15,12.012t-2.78,21q-0.585,9.18-4.35,12.841t-12.55,3.663h-1.66V469.8h5.08q18.84,0,29.1-6.054,19.335-11.62,21.88-39.844,0.78-8.5,3.66-11.377t10.59-2.881V371.167h-11.03Z" />
                 </svg> -->
-                <a href="/index.html"><img class = "footer_logo" src="/static/icons/ATI_BLACK.png" alt=""></a>
+          <a href="/index.html"
+            ><img class="footer_logo" src="/static/icons/ATI_BLACK.png" alt=""
+          /></a>
 
-                <!-- <svg style="background:yellow; margin:auto; margin-top:0;" viewBox="170 400 400 500" width="100%" height="120" id="SVG_Logo_Big2" preserveAspectRatio='xMinYMin'>
+          <!-- <svg style="background:yellow; margin:auto; margin-top:0;" viewBox="170 400 400 500" width="100%" height="120" id="SVG_Logo_Big2" preserveAspectRatio='xMinYMin'>
                             <path stroke="red" fill="none" stroke-width="6" id="Color_Fill_2" data-name="Color Fill 2" class="cls-2" d="M302.066,649.286q-14.209,29.443-20.508,53.613-5.128,19.484-5.127,29.3a11.728,11.728,0,0,0,2.344,7.324,9.709,9.709,0,0,0,7.764,3.955,4.258,4.258,0,0,0,4.248-2.636q0.731-1.758,1.025-9.522,0.879-21.677,19.776-66.5,19.039-45.262,52.441-95.361,6.591-9.812,6.592-13.476a6.045,6.045,0,0,0-1.9-4.395,6.408,6.408,0,0,0-4.834-2.2,10.365,10.365,0,0,0-7.177,2.783,92.63,92.63,0,0,0-8.35,8.643Q329.02,582.782,313.638,603q-61.083,79.98-88.037,110.889-10.693,12.161-16.406,12.158a5.448,5.448,0,0,1-4.834-2.783,10.56,10.56,0,0,1-1.318-5.274q0-6.883,3.516-18.6a226.082,226.082,0,0,1,13.769-35.3q20.655-42.48,47.9-74.414,21.238-24.9,22.852-26.514,7.031-7.031,7.031-11.279a6.794,6.794,0,0,0-2.637-5.42,5.925,5.925,0,0,0-3.808-1.611q-6.009,0-21.24,17.578-36.771,42.334-59.619,87.012-23.439,46.29-23.438,72.949a28.885,28.885,0,0,0,3.369,14.355q4.978,8.644,12.891,8.643,11.57,0,28.711-18.018a431.678,431.678,0,0,0,32.666-39.7q41.748-56.542,54.931-72.07-16.994,32.079-17.871,33.691h0Z"/>
                             <path stroke="red" fill="none" stroke-width="6" id="Color_Fill_2" data-name="Color Fill 2" class="cls-2" d="M368.564,661.618q4.248-6,4.248-9.229a6.456,6.456,0,0,0-2.05-4.687,5.187,5.187,0,0,0-3.662-1.758q-3.956,0-9.522,8.057-5.568,8.205-15.234,26.367-18.018,33.546-18.018,41.455a7.139,7.139,0,0,0,2.051,5.273,5.323,5.323,0,0,0,4.1,1.758q4.982,0,9.375-7.764,17.137-32.372,37.06-45.117-14.942,24.026-14.941,43.8,0,10.255,3.955,17.432,4.1,7.614,10.107,7.617a5.994,5.994,0,0,0,4.541-2.051,4.613,4.613,0,0,0,1.758-3.369q0-1.9-2.051-5.274a29.441,29.441,0,0,1-4.394-15.38q0-24.9,27.978-57.569,5.125-6,5.127-10.4,0-6.3-5.713-6.3-10.4,0-41.015,29.883-1.758,1.758-3.663,3.515a156.845,156.845,0,0,1,9.961-16.259h0Z"/>
                             <path stroke="red" fill="none" stroke-width="6" id="Color_Fill_2" data-name="Color Fill 2" class="cls-2" d="M396.605,700.975q0.217,4.422,4.172,4.422a8.81,8.81,0,0,0,2.183-.3q-2.041,6.191-4.262,11.644-8.589,21.963-10.38,27.267-14.253,43.774-13.185,65.588,0.5,10.168,4.452,16.065,4.889,7.074,12.212,7.075,9.669,0,18.426-9.581,8.208-8.842,16.6-25.94,19.416-40.092,17.644-76.2-0.687-14-6.138-23.582-4-6.777-12.987-10.907,19.848-13.41,34.5-13.412a12.083,12.083,0,0,1,5.324,1.032q7.527,4.128,10.017,4.127a6.56,6.56,0,0,0,5.576-2.8,6.2,6.2,0,0,0,1.4-4.274q-0.224-4.567-4.939-8.106a18.418,18.418,0,0,0-11.3-3.39q-9.23,0-32.225,8.99,23.671-51.878,54.222-89.022,4.828-6.042,4.671-9.286a4.927,4.927,0,0,0-2.247-3.979,4.687,4.687,0,0,0-3.134-1.179q-4.689,0-10.953,6.632Q467.19,581.3,453.7,601.93q-19.89,30.51-39.911,79.148-17.572,12.087-17.187,19.9h0Zm30.847,4.717q4.521,5.6,5.066,16.655,1.4,28.446-13.623,62.64-13.291,30.654-22.371,30.656-2.781,0-4.979-2.947a12.74,12.74,0,0,1-2.237-6.78q-0.963-19.6,11.208-55.123,11.767-34.783,19.2-50.407,6.009,3.094,7.732,5.306h0Z"/>
@@ -496,99 +443,87 @@
                             <path stroke="red" fill="none" stroke-width="6" id="Colo_Fill_2" data-name="Color Fill 2" class="cls-2" d="M1563.3,652.168q-15.96,11.281-15.96,25.927,0,10.987,9.66,24.463,7.035,9.816,7.04,15.967a12.516,12.516,0,0,1-2.64,8.2,11.078,11.078,0,0,1-8.94,3.809,14.552,14.552,0,0,1-10.4-4.395,16.287,16.287,0,0,1-5.12-12.158,31,31,0,0,1,3.36-14.8,8.287,8.287,0,0,0,1.32-3.516q0-2.928-3.66-2.929-4.1,0-7.91,5.127-5.85,7.766-5.86,19.189a28.446,28.446,0,0,0,5.13,16.992q7.32,10.109,21.39,10.108a28.78,28.78,0,0,0,15.96-4.541q11.43-7.323,11.43-20.215,0-8.641-8.64-21.094-7.77-11.425-7.77-19.043,0-10.691,11.87-18.457,10.245-6.883,18.75-6.885a8.09,8.09,0,0,1,5.27,1.465,5.587,5.587,0,0,1,1.76,4.541q0,3.955-3.96,7.325a22.182,22.182,0,0,1-9.96,5.126q-9.075,2.054-9.96,2.491a6.028,6.028,0,0,0-3.51,5.566q0,5.421,6.15,5.42a33.921,33.921,0,0,0,11.28-2.49q12.3-4.686,18.45-12.305,6.45-8.053,6.45-16.7,0-6.592-4.54-9.814t-13.62-3.223q-17.3,0-32.82,10.84h0Z"/>
                         
                           </svg> -->
-            </div>
-            <div class="vl"></div>
-            <div class="footer_left common_footer">
-                <h2>Industries we Cater to</h2>
-                <div class="footer_left_1">
-                    <div class="left_footer_left">
-                        <ul>
-                            <li>Technology</li>
-                            <li>Food & Drinks</li>
-                            <li>Entertainment & Arts</li>
-                            <li>Business and Consulting</li>
-                            <li>Agriculture</li>
-                            <li>Personal Blogs</li>
-                        </ul>
-                    </div>
-                    <div class="left_footer_right">
-                        <ul>
-                            <li>Travel and Hotel</li>
-                            <li>Lifestyle</li>
-                            <li>Healthcare</li>
-                            <li>Automotive</li>
-                            <li>Sports & More</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="vl"></div>
-            <div class="footer_middle common_footer">
-                <h2>Who We Are</h2>
-                <div class="footer_middle_div">
-                    <ul>
-                        <li>
-                            <a href="/index.html">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/HTML/Technologies.html">
-                                Technologies
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/HTML/Services.html">
-                                Services
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/HTML/AboutUs.html">
-                                About Us
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/HTML/Contact.html">
-                                Contact Us
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="vl"></div>
-            <div class="footer_right common_footer">
-                <div class="preloader"></div>
-
-                <div class="alert alert-warning
-                                        toggle-send-message-notification-empty
-                                        alert-dismissible fade show" role="alert">
-                    Please Fill the Form Before Submitting.
-                </div>
-
-                <div class="alert alert-success
-                                        toggle-send-message-notification
-                                        alert-dismissible
-                                        fade show" role="alert">
-                    Your Message Has Been Sent Successfully.
-                </div>
-                <div class="alert alert-danger
-                                        toggle-send-message-notification-error
-                                        alert-dismissible fade show" role="alert">
-                    Your Message Could not be sent. Please
-                    try again
-                    later.
-                </div>
-                <h2>Request A Quote</h2>
-                <input type="text" id="Sender_Email" placeholder="Email*">
-                <textarea name="Quote_Message" id="Sender_Message" cols="30" rows="10"
-                    placeholder="Message*"></textarea>
-                <button class="btn" onclick="Submitted_Quote_Form();">Submit</button>
-            </div>
         </div>
+        <div class="vl"></div>
+        <div class="footer_left common_footer">
+          <h2>Industries we Cater to</h2>
+          <div class="footer_left_1">
+            <div class="left_footer_left">
+              <ul>
+                <li>Technology</li>
+                <li>Food & Drinks</li>
+                <li>Entertainment & Arts</li>
+                <li>Business and Consulting</li>
+                <li>Agriculture</li>
+                <li>Personal Blogs</li>
+              </ul>
+            </div>
+            <div class="left_footer_right">
+              <ul>
+                <li>Travel and Hotel</li>
+                <li>Lifestyle</li>
+                <li>Healthcare</li>
+                <li>Automotive</li>
+                <li>Sports & More</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="vl"></div>
+        <div class="footer_middle common_footer">
+          <h2>Who We Are</h2>
+          <div class="footer_middle_div">
+            <ul>
+              <li>
+                <a href="/index.html"> Home </a>
+              </li>
+              <li>
+                <a href="/HTML/Technologies.html"> Technologies </a>
+              </li>
+              <li>
+                <a href="/HTML/Services.html"> Services </a>
+              </li>
+              <li>
+                <a href="/HTML/AboutUs.html"> About Us </a>
+              </li>
+              <li>
+                <a href="/HTML/Contact.html"> Contact Us </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="vl"></div>
+        <div class="footer_right common_footer">
+          <div class="preloader"></div>
 
+          <div
+            class="alert alert-warning toggle-send-message-notification-empty alert-dismissible fade show"
+            role="alert">
+            Please Fill the Form Before Submitting.
+          </div>
+
+          <div
+            class="alert alert-success toggle-send-message-notification alert-dismissible fade show"
+            role="alert">
+            Your Message Has Been Sent Successfully.
+          </div>
+          <div
+            class="alert alert-danger toggle-send-message-notification-error alert-dismissible fade show"
+            role="alert">
+            Your Message Could not be sent. Please try again later.
+          </div>
+          <h2>Request A Quote</h2>
+          <input type="text" id="Sender_Email" placeholder="Email*" />
+          <textarea
+            name="Quote_Message"
+            id="Sender_Message"
+            cols="30"
+            rows="10"
+            placeholder="Message*"></textarea>
+          <button class="btn" onclick="Submitted_Quote_Form();">Submit</button>
+        </div>
+      </div>
     </div>
-
-
 
     <!-- <a href="DEMO.html"><button>go to demo</button></a> -->
     <!-- Javascript -->
@@ -637,68 +572,67 @@
 
     </script> -->
     <script>
-        $(function () {
-            var wrappers = $("[id^=wrap]").hide();
-            var length = wrappers.length;
-            // console.log(length);
-            var index = -1;
-            setInterval(function () {
-                next = index + 1;
-                if (next === wrappers.length) {
-                    next = 0;
-                }
-                wrappers.eq(index).hide();
-                // wrappers.eq(index).transition.fadeOut(200);
-                wrappers.eq(next).show();
-                index++;
-                if (index == wrappers.length) {
-                    index = 0;
-                }
-            }, 2000);
-        });
+      $(function () {
+        var wrappers = $("[id^=wrap]").hide();
+        var length = wrappers.length;
+        // console.log(length);
+        var index = -1;
+        setInterval(function () {
+          next = index + 1;
+          if (next === wrappers.length) {
+            next = 0;
+          }
+          wrappers.eq(index).hide();
+          // wrappers.eq(index).transition.fadeOut(200);
+          wrappers.eq(next).show();
+          index++;
+          if (index == wrappers.length) {
+            index = 0;
+          }
+        }, 2000);
+      });
     </script>
     <script>
-        $(document).ready(function () {
-            $("#wrap0").show();
-        }); 
+      $(document).ready(function () {
+        $("#wrap0").show();
+      });
     </script>
     <script>
-
-        anime({
-            targets: '#SVG_Logo path',
-            strokeDashoffset: [anime.setDashoffset, 0],
-            easing: 'easeInOutQuad',
-            duration: 2000,
-            direction: 'alternate',
-            // changeComplete: anim => setTimeout(() => anim.restart()),
-            loop: true
-        });
+      anime({
+        targets: "#SVG_Logo path",
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: "easeInOutQuad",
+        duration: 2000,
+        direction: "alternate",
+        // changeComplete: anim => setTimeout(() => anim.restart()),
+        loop: true,
+      });
     </script>
     <script>
+      anime({
+        targets: "#SVG_Logo_Big path",
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: "easeInOutSine",
+        duration: 1500,
+        delay: function (el, i) {
+          return i * 250;
+        },
+        direction: "alternate",
+        loop: true,
+      });
 
-
-
-        anime({
-            targets: '#SVG_Logo_Big path',
-            strokeDashoffset: [anime.setDashoffset, 0],
-            easing: 'easeInOutSine',
-            duration: 1500,
-            delay: function (el, i) { return i * 250 },
-            direction: 'alternate',
-            loop: true
-        });
-
-        anime({
-            targets: '#SVG_Logo_Big2 path',
-            strokeDashoffset: [anime.setDashoffset, 0],
-            easing: 'easeInOutSine',
-            duration: 1500,
-            delay: function (el, i) { return i * 250 },
-            direction: 'alternate',
-            loop: true
-        });
+      anime({
+        targets: "#SVG_Logo_Big2 path",
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: "easeInOutSine",
+        duration: 1500,
+        delay: function (el, i) {
+          return i * 250;
+        },
+        direction: "alternate",
+        loop: true,
+      });
     </script>
-</body>
-<!-- PWD -> SMTP JS  -> B10834AF3BB1BD410BA78531AB9F37983039 -->
-
+  </body>
+  <!-- PWD -> SMTP JS  -> B10834AF3BB1BD410BA78531AB9F37983039 -->
 </html>
