@@ -29,7 +29,7 @@ function sendMail(Email='',Message=''){
     Loader[0].style.visibility = 'visible';
     $.ajax({
         method: 'POST',
-        url: 'https://formsubmit.co/ajax/connect.unfoldingcreations@gmail.com',
+        url: 'https://formsubmit.co/ajax/connect@alphatechinnovators.com',
         dataType: 'json',
         accepts: 'application/json',
         data: {
@@ -61,7 +61,7 @@ function ContactFormMail(Name='',Email='',Phone='',Service='',Message=''){
     Loader[0].style.visibility = 'visible';
     $.ajax({
         method: 'POST',
-        url: 'https://formsubmit.co/ajax/connect.unfoldingcreations@gmail.com',
+        url: 'https://formsubmit.co/ajax/connect@alphatechinnovators.com',
         dataType: 'json',
         accepts: 'application/json',
         data: {
