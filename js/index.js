@@ -10,6 +10,7 @@ function Submitted_Quote_Form(){
     sendMail(Email,Message);
 }
 function Submitted_Contact_Form(){
+    console.log("Clicked Contact Form");
     Name = $('#Sender_Name').val();
     Email = $('#Sender_Email_Enquiry_Form').val();
     Phone = $('#Sender_Phone').val();
