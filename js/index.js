@@ -29,7 +29,7 @@ function sendMail(Email='',Message=''){
     Loader[0].style.visibility = 'visible';
     $.ajax({
         method: 'POST',
-        url: 'https://formsubmit.co/ajax/connect@alphatechinnovators.com',
+        url: 'https://formsubmit.co/ajax/b9537c3f03e44091165fdc6133e61292',
         dataType: 'json',
         accepts: 'application/json',
         data: {
@@ -61,7 +61,7 @@ function ContactFormMail(Name='',Email='',Phone='',Service='',Message=''){
     Loader[0].style.visibility = 'visible';
     $.ajax({
         method: 'POST',
-        url: 'https://formsubmit.co/ajax/connect@alphatechinnovators.com',
+        url: 'https://formsubmit.co/ajax/b9537c3f03e44091165fdc6133e61292',
         dataType: 'json',
         accepts: 'application/json',
         data: {
