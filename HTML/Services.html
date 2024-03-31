@@ -1,40 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Services - Alpha Tech Innovators</title>
-    <link rel="icon" href="/static/ICON.png">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/nav.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/all.min.css">
-    
-    <link rel="stylesheet" href="/css/Services.css">
+    <link rel="icon" href="/static/ICON.png" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/all.min.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/Services.css" />
 
-
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
     <div class="services_main_container">
+      <nav class="navigation">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa fa-bars"></i>
+        </label>
+        <label for="check" class="closebtn">
+          <i class="fas fa-times"></i>
+        </label>
 
-        <nav class="navigation">
-
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fa fa-bars"></i>
-            </label>
-            <label for="check" class="closebtn">
-                <i class="fas fa-times"></i>
-            </label>
-
-
-            <label class="logo">
-                <!-- <a href="/index.html">
+        <label class="logo">
+          <!-- <a href="/index.html">
                 <svg id="SVG_Logo" class="small_LOGO" width="180" height="80" viewBox="270 90 2 250">
                     <path width="100px" height="100px" stroke="#EC994B" fill="none" stroke-width="4" id="Color_Fill_1" data-name="Color Fill 1" class="cls-1" d="M128.75,126.643v99.25c0,52.25,26,72,60.5,72,36.5,0,63.75-21.25,63.75-73v-98.25H231v99.75c0,37.25-16,53.75-41,53.75-22.5,0-39.25-16-39.25-53.75v-99.75h-22ZM404,272.393c-8.75,4.25-22.25,7-35.5,7-41,0-64.75-26.5-64.75-67.75,0-44.25,26.25-69.5,65.75-69.5,14,0,25.75,3,34,7l5.25-17.75c-5.75-3-19-7.5-40-7.5-52.25,0-88,35.75-88,88.5,0,55.25,35.75,85.25,83.25,85.25,20.5,0,36.5-4,44.5-8Z"/>
                   </svg>
@@ -44,356 +41,422 @@
                     <path stroke="#EC994B" fill="none" stroke-width="6" id="Color_Fill_2" data-name="Color Fill 2" class="cls-2" d="M67.383,333.862v85.059q0,12.209-8.4,12.207-8.693,0-8.691-12.207V333.862H10.645v85.156q0,24.9,11.963,38.184t34.521,13.281q22.655,0,36.279-13.672t13.623-36.523V333.862H67.383ZM215.234,415.8q0-21.094-9.863-32.911-12.6-15.135-33.5-15.136a41.254,41.254,0,0,0-30.86,13.037q-12.6,13.036-12.6,32.08v54.3h36.523V412.182q0-8.4,6.836-8.4,6.933,0,6.934,8.4v54.981h36.523V415.8Zm57.812-24.414v-3.321q0-8.5,3.76-13.086t10.693-4.59c0.391,0,1.009.034,1.856,0.1V332.2l-3.906-.1a46.844,46.844,0,0,0-25.733,7.959,49.855,49.855,0,0,0-18.408,20.557q-4.786,9.864-4.785,23.828v82.715h36.523v-37.5h16.309V391.382H273.046Zm41.406-9.034q-15.039,14.6-15.039,35.987a48.673,48.673,0,0,0,15.039,35.888,51.517,51.517,0,0,0,72.412.049,50.513,50.513,0,0,0,.2-71.631q-14.8-14.891-35.5-14.892Q329.491,367.749,314.452,382.348Zm46.192,25.684a15.111,15.111,0,0,1-.049,20.752,13.694,13.694,0,0,1-19.922,0,15.111,15.111,0,0,1-.049-20.752A13.918,13.918,0,0,1,360.644,408.032Zm56.445-74.17v133.3h36.523v-133.3H417.089ZM534.96,413.647q0,19.434-14.063,19.434a13.97,13.97,0,0,1-10.058-4.053,13.023,13.023,0,0,1-4.2-9.717,13.81,13.81,0,0,1,4.052-10.01,13.1,13.1,0,0,1,9.717-4.15,14.566,14.566,0,0,1,8.984,3.516V368.432q-6.543-.585-9.765-0.586-20.313,0-35.156,15.039T469.628,418.53q0,21.291,14.941,35.937t36.719,14.649a50.563,50.563,0,0,0,21.338-4.785,47.925,47.925,0,0,0,17.138-12.891q11.72-14.062,11.719-36.426V333.862H534.96v79.785ZM590.721,369.8v97.363h36.524V369.8H590.721Zm5.518-38.233a17.28,17.28,0,0,0-.293,24.854,20.109,20.109,0,0,0,26.269,0,17.281,17.281,0,0,0-.292-24.854A18.4,18.4,0,0,0,596.239,331.567ZM735.545,415.8q0-21.094-9.863-32.911-12.6-15.135-33.5-15.136a41.251,41.251,0,0,0-30.859,13.037q-12.6,13.036-12.6,32.08v54.3h36.523V412.182q0-8.4,6.836-8.4,6.933,0,6.934,8.4v54.981h36.523V415.8Zm66.113,12.988a12.747,12.747,0,0,1-9.326-3.711,12.5,12.5,0,0,1-3.759-9.277,12.972,12.972,0,0,1,3.955-9.327,12.506,12.506,0,0,1,9.228-4.052q12.4,0,12.4,15.332V454.37q0,12.109-5.371,18.6t-15.234,6.494a29.79,29.79,0,0,1-14.453-3.906v33.2q11.034,3.612,18.262,3.613,23.73,0,38.525-16.259t14.8-42.334V421.753q0-24.317-9.961-37.11a41.079,41.079,0,0,0-16.406-12.3,53.82,53.82,0,0,0-21.875-4.59q-21.486,0-36.231,14.355t-14.746,35.254q0,19.337,12.256,32.715t29.932,13.379a43.552,43.552,0,0,0,15.136-2.93v-33.5a15.391,15.391,0,0,1-7.129,1.758h0Zm204.542-5.176q-7.47,7.521-20.069,7.52-12.4,0-20.508-8.545t-8.106-21.631q0-13.573,8.252-22.363t20.948-8.789q19.922,0,27.053,21.874l42.48-2.832q-5.67-24.609-19.34-38.378-19.725-19.923-49.217-19.922-29.98,0-50.439,20.312t-20.459,50.1q0,29.589,20.068,49.56t49.854,19.971q29.3,0,47.513-17.578t22.31-49.8l-41.5-1.074Q1013.66,416.089,1006.2,423.608Zm108.64-55.859q-19.245,0-30.76,12.549t-11.52,33.642v53.223h36.52V420.971q0-15.234,9.96-15.234a14.348,14.348,0,0,1,6.93,2.148V368.823a74.669,74.669,0,0,0-11.13-1.074h0Zm117.97,49.8q0-21.093-14.4-35.5-14.415-14.4-35.6-14.4-21.675,0-36.57,14.746t-14.89,36.133q0,21.485,14.74,36.035t36.43,14.551a51.071,51.071,0,0,0,32.32-11.426l-20.8-25q-5.085,5.47-10.55,5.469a12.773,12.773,0,0,1-10.89-5.86q-4.14-5.859-4.15-15.332,0-9.081,4.3-14.892a13.265,13.265,0,0,1,11.13-5.811q10.26,0,12.21,10.84h-18.55a25.563,25.563,0,0,0-.49,17.285h55.37q0.39-4.687.39-6.836h0Zm59.96,15.625a12.924,12.924,0,0,1-9.67-3.906,14.364,14.364,0,0,1,10.35-24.121,12.388,12.388,0,0,1,10.11,4.59q3.765,4.592,3.76,12.305v45.117h36.52V419.409q0-23.925-13.62-37.744t-37.25-13.819q-21.2,0-35.99,14.746a48.843,48.843,0,0,0-14.8,35.938q0,21.779,14.65,36.23t36.62,14.453a48.359,48.359,0,0,0,8.21-.781V430.639a16.587,16.587,0,0,1-8.89,2.539h0Zm68.36-99.316v79.98q0,20.8,8.4,33.4a47.254,47.254,0,0,0,17.63,15.625,49.605,49.605,0,0,0,23.38,5.761q1.365,0,4.2-.1V430.151q-9.765,0-13.42-4.4-3.675-4.393-3.67-16.015h16.41V371.167h-16.41v-37.3h-36.52Zm70.9,35.938v97.363h36.52V369.8h-36.52Zm5.52-38.233a17.288,17.288,0,0,0-.3,24.854,20.111,20.111,0,0,0,26.27,0,17.276,17.276,0,0,0-.29-24.854A18.392,18.392,0,0,0,1437.55,331.567Zm61.57,50.781q-15.045,14.6-15.04,35.987a48.659,48.659,0,0,0,15.04,35.888,51.514,51.514,0,0,0,72.41.049,50.52,50.52,0,0,0,.2-71.631q-14.805-14.891-35.5-14.892Q1514.15,367.749,1499.12,382.348Zm46.19,25.684a15.112,15.112,0,0,1-.05,20.752,13.691,13.691,0,0,1-19.92,0,15.112,15.112,0,0,1-.05-20.752,13.314,13.314,0,0,1,9.96-4.248A13.454,13.454,0,0,1,1545.31,408.032Zm143.26,7.764q0-21.094-9.86-32.911-12.6-15.135-33.5-15.136a41.264,41.264,0,0,0-30.86,13.037q-12.6,13.036-12.6,32.08v54.3h36.53V412.182q0-8.4,6.83-8.4,6.945,0,6.94,8.4v54.981h36.52V415.8Zm71.29-44.629q-19.05,0-29.79,10.449-6.15,5.958-8.15,12.012t-2.78,21q-0.585,9.18-4.35,12.841t-12.55,3.663h-1.66V469.8h5.08q18.84,0,29.1-6.054,19.335-11.62,21.88-39.844,0.78-8.5,3.66-11.377t10.59-2.881V371.167h-11.03Z"/>
                   </svg>
                 </a> -->
-                <a href="/index.html"><img class = "logo_design" src="/static/icons/ATI_BLACK.png" alt=""></a>
-                </label>
-            <ul class="ul">
-                <li><a href="/index.html" class="links">Home</a></li>
-                <li><a href="/HTML/Services.html" class="links" style="background-color: #4285F4;  color:white;">Services</a></li>
-                <li><a href="/HTML/Technologies.html" class="links">Technologies</a></li>
-                <li><a href="/HTML/AboutUs.html" class="links">About us</a></li>
-                <li><a href="/HTML/Contact.html" class="links">Contact us</a></li>
-            </ul>
-        </nav>
+          <a href="/"
+            ><img class="logo_design" src="/static/icons/ATI_BLACK.png" alt=""
+          /></a>
+        </label>
+        <ul class="ul">
+          <li><a href="/" class="links">Home</a></li>
+          <li>
+            <a
+              href="/HTML/Services"
+              class="links"
+              style="background-color: #4285f4; color: white"
+              >Services</a
+            >
+          </li>
+          <li><a href="/HTML/Technologies" class="links">Technologies</a></li>
+          <li><a href="/HTML/AboutUs" class="links">About us</a></li>
+          <li><a href="/HTML/Contact" class="links">Contact us</a></li>
+        </ul>
+      </nav>
 
-        <div class="header finisher-header" style="width: 100%; min-height: 100vh;">
-            
-            <div class="services_banner_sub">
-                <h1>
-                    Services We Offer
-                </h1>
+      <div
+        class="header finisher-header"
+        style="width: 100%; min-height: 100vh">
+        <div class="services_banner_sub">
+          <h1>Services We Offer</h1>
+          <p>
+            We offer Multiple Services to our clients. whatever your
+            requirements are we are here to help you. Our design Team will offer
+            you the best solution for your needs regarding the designing of your
+            website. As a client you are looking for a solution that requires
+            you to tell the requirement and rest can be managed by someone and
+            we provide you with that so that you get a back end with content
+            altering tools that are organic and seamless to use. Our expertise
+            and our strong portfolio makes us the best choice for your needs.
+            Alpha Tech Innovators Team will strategize a progressive workflow
+            sculpt for your website development process.
+          </p>
+        </div>
+        <div class="header_Image_SVG">
+          <object data="/static/Services_Page.svg" class="object_Img"></object>
+        </div>
+      </div>
+
+      <div class="services_container">
+        <div class="service_container_inner">
+          <div class="services_container_sub">
+            <!-- <h4>We offer a wide array of services to cater to any of your requirements. Check out below:</h4> -->
+            <h4></h4>
+            <div class="actual_services service_1">
+              <div class="actual_services_text">
+                <h3>Web Development</h3>
                 <p>
-                    We offer Multiple Services to our clients.
-                    whatever your requirements are we are here to help you.
-                    Our design Team will offer you the best solution for your needs regarding the designing of your website.
-                    As a client you are looking for a solution that
-                                requires you to tell the requirement and rest can be 
-                                managed by someone and we provide you
-                                with that so that you get a back end with
-                                content altering tools that are organic and
-                                seamless
-                                to use. Our expertise and our strong portfolio
-                                makes us the best choice for your needs.
-
-                    Alpha Tech Innovators Team will strategize a progressive workflow sculpt for your website development process.
-                          
+                  Your website is the first impression you make to potential
+                  clients. You want a website that will represent your company
+                  within seconds of people viewing it. Now, more than ever
+                  before it is imperative to select a website designing company
                 </p>
+                <ul>
+                  <li>Mobile Compatibility</li>
+                  <li>Fast Load Times</li>
+                  <li>Effective Navigation</li>
+                  <li>Well Planned Information Architecture</li>
+                  <li>Well-Formatted Content That Is Easy to Scan</li>
+                  <li>Browser Consistency</li>
+                  <li>Contrasting Colour Scheme</li>
+                </ul>
+                <button
+                  class="Enquire_now"
+                  data-bs-toggle="modal"
+                  data-bs-target="#EnquireModal">
+                  Enquire Now
+                </button>
+              </div>
+              <div class="actual_services_images">
+                <object data="/static/Dev.svg" class="services_SVG"></object>
+                <!-- <img src="/static/icons/web development.jpg" alt="Web Design"> -->
+              </div>
             </div>
-            <div class="header_Image_SVG">
-                <object data="/static/Services_Page.svg" class="object_Img"></object>
+            <br />
+            <div class="actual_services service_2">
+              <div class="actual_services_images">
+                <object data="/static/SEO.svg" class="services_SVG"></object>
+                <!-- <img src="/static/icons/SEO.jpg" alt="Web Design"> -->
+              </div>
+              <div class="actual_services_text">
+                <h3>SEO</h3>
+                <p>
+                  Search Engine Optimization - Ranking First and higher growth
+                  is always everybody's goal. Advert India team realize your
+                  goal and makes it reality by our SEO Services. We have planned
+                  strategy and protocol.
+                </p>
+                <button
+                  class="Enquire_now"
+                  data-bs-toggle="modal"
+                  data-bs-target="#EnquireModal">
+                  Enquire Now
+                </button>
+              </div>
             </div>
-            
-        </div>  
+            <br />
+            <div class="actual_services service_3">
+              <div class="actual_services_text">
+                <h3>Digital Marketing</h3>
+                <p>
+                  Digital marketing comprises of a number of activities for the
+                  web apart from marketing and each and every activity needs to
+                  be executed with focus on the end users to ensure success.
+                  Fortunately, we have an excellent team of digital marketing
+                  experts, who are working 24/7 to attract, engage and convert
+                  your customers into sales.
+                </p>
+                <ul>
+                  <li>Social Media Marketing</li>
+                  <li>Content Marketing</li>
+                  <li>Online Reputation Management</li>
+                  <li>SEM & PPC(Search Engine Marketing)</li>
+                  <li>Conversion Rate Optimization</li>
+                  <li>Email Marketing</li>
+                  <li>Analytics Consultation</li>
+                </ul>
+                <button
+                  class="Enquire_now"
+                  data-bs-toggle="modal"
+                  data-bs-target="#EnquireModal">
+                  Enquire Now
+                </button>
+              </div>
+              <div class="actual_services_images">
+                <object
+                  data="/static/Marketing.svg"
+                  class="services_SVG"></object>
+                <!-- <img src="/static/icons/web development.jpg" alt="Web Design"> -->
+              </div>
+            </div>
+            <br />
+            <div class="actual_services service_4">
+              <div class="actual_services_images">
+                <object
+                  data="/static/Maintain.svg"
+                  class="services_SVG"></object>
+                <!-- <img src="/static/icons/web development.jpg" alt="Web Design"> -->
+              </div>
+              <div class="actual_services_text">
+                <h3>Website Maintaince</h3>
+                <p>
+                  We can provide you with ongoing, reliable and affordable
+                  website maintenance and support solutions, delivered in a
+                  timely and professional manner. Whether you're a small,
+                  home-based business or a larger, corporate or government.
+                </p>
+                <ul>
+                  <li>Regularly updating the website</li>
+                  <li>Running backups</li>
+                  <li>Updating the content</li>
+                  <li>Testing page speeds</li>
+                </ul>
+                <button
+                  class="Enquire_now"
+                  data-bs-toggle="modal"
+                  data-bs-target="#EnquireModal">
+                  Enquire Now
+                </button>
+              </div>
+            </div>
+            <br />
+            <div class="actual_services service_5">
+              <div class="actual_services_text">
+                <h3>Domain Hosting</h3>
+                <p>
+                  We also provide services in Web Hosting and Domain
+                  Registration in making your website accessible in World Wide
+                  Web, assisting in choosing a unique domain for registering. It
+                  is essential to have a website as it represents your business.
+                </p>
+                <ul>
+                  <li>Domain Name</li>
+                  <li>Web Hosting</li>
+                  <li>Domain Registration</li>
+                  <li>Domain Renewal</li>
+                </ul>
+                <button
+                  class="Enquire_now"
+                  data-bs-toggle="modal"
+                  data-bs-target="#EnquireModal">
+                  Enquire Now
+                </button>
+              </div>
+              <div class="actual_services_images">
+                <object data="/static/Domain.svg" class="services_SVG"></object>
+                <!-- <img src="/static/icons/web development.jpg" alt="Web Design"> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <div class="services_container">
-            <div class="service_container_inner">
-            <div class="services_container_sub">
-                <!-- <h4>We offer a wide array of services to cater to any of your requirements. Check out below:</h4> -->
-                <h4></h4>
-                <div class="actual_services service_1">
-                    <div class="actual_services_text">
-                        <h3>Web Development</h3>
-                        <p>
-                            Your website is the first impression 
-                            you make to potential clients. You want a 
-                            website that will represent your company within 
-                            seconds of people viewing it. Now, more than ever
-                            before it is imperative to select a website designing 
-                            company
-                        </p>
-                        <ul>
-                            <li>Mobile Compatibility</li>
-                            <li>Fast Load Times</li>
-                            <li>Effective Navigation</li>
-                            <li>Well Planned Information Architecture</li>
-                            <li>Well-Formatted Content That Is Easy to Scan</li>
-                            <li>Browser Consistency</li>
-                            <li>Contrasting Colour Scheme</li>
-                        </ul>
-                        <button class="Enquire_now" data-bs-toggle="modal" data-bs-target="#EnquireModal">Enquire Now</button>
-                    </div>
-                    <div class="actual_services_images">
-                        <object data="/static/Dev.svg" class="services_SVG"></object>
-                        <!-- <img src="/static/icons/web development.jpg" alt="Web Design"> -->
-                    </div>
-                </div>
-                <br>
-                <div class="actual_services service_2">
-                    <div class="actual_services_images">
-                        <object data="/static/SEO.svg" class="services_SVG"></object>
-                        <!-- <img src="/static/icons/SEO.jpg" alt="Web Design"> -->
-                    </div>
-                    <div class="actual_services_text">
-                        <h3>SEO</h3>
-                        <p>
-                            Search Engine Optimization - Ranking 
-                            First and higher growth is always 
-                            everybody's goal. Advert India team realize 
-                            your goal and makes it reality by our SEO Services. 
-                            We have planned strategy and protocol.
-                        </p>
-                        <button class="Enquire_now" data-bs-toggle="modal" data-bs-target="#EnquireModal">Enquire Now</button>
-                    </div>
-                    
-                </div>
-                <br>
-                <div class="actual_services service_3">
-                    <div class="actual_services_text">
-                        <h3>Digital Marketing</h3>
-                        <p>
-                            Digital marketing comprises of a number of 
-                            activities for the web apart from marketing and 
-                            each and every activity needs to be executed with
-                            focus on the end users to ensure success. 
-                            Fortunately, we have an excellent team of digital marketing experts, 
-                            who are working 24/7 to attract, 
-                            engage and convert your customers into sales.
-                        </p>
-                        <ul>
-                            <li>Social Media Marketing</li>
-                            <li>Content Marketing</li>
-                            <li>Online Reputation Management</li>
-                            <li>SEM & PPC(Search Engine Marketing)</li>
-                            <li>Conversion Rate Optimization</li>
-                            <li>Email Marketing</li>
-                            <li>Analytics Consultation</li>
-                        </ul>
-                        <button class="Enquire_now" data-bs-toggle="modal" data-bs-target="#EnquireModal">Enquire Now</button>
-                    </div>
-                    <div class="actual_services_images">
-                        <object data="/static/Marketing.svg" class="services_SVG"></object>
-                        <!-- <img src="/static/icons/web development.jpg" alt="Web Design"> -->
-                    </div>
-                </div>
-                <br>
-                <div class="actual_services service_4">
-                    <div class="actual_services_images">
-                        <object data="/static/Maintain.svg" class="services_SVG"></object>
-                        <!-- <img src="/static/icons/web development.jpg" alt="Web Design"> -->
-                    </div>
-                    <div class="actual_services_text">
-                        <h3>Website Maintaince</h3>
-                        <p>
-                            We can provide you with ongoing, reliable and 
-                            affordable website maintenance and support solutions, 
-                            delivered in a timely and professional manner. 
-                            Whether you're a small, home-based business or a larger, 
-                            corporate or government.
-                        </p>
-                        <ul>
-                            <li>Regularly updating the website</li>
-                            <li>Running backups</li>
-                            <li>Updating the content</li>
-                            <li>Testing page speeds</li>
-                        </ul>
-                        <button class="Enquire_now" data-bs-toggle="modal" data-bs-target="#EnquireModal">Enquire Now</button>
-                    </div>
-                </div>
-                <br>
-                <div class="actual_services service_5">
-                    <div class="actual_services_text">
-                        <h3>Domain Hosting</h3>
-                        <p>
-                            We also provide services in Web Hosting and Domain
-                            Registration in making your website accessible in 
-                            World Wide Web, assisting in choosing a unique domain
-                            for registering. It is essential to have a website
-                            as it represents your business.
-                        </p>
-                        <ul>
-                            <li>Domain Name</li>
-                            <li>Web Hosting</li>
-                            <li>Domain Registration</li>
-                            <li>Domain Renewal</li>
-                        </ul>
-                        <button class="Enquire_now" data-bs-toggle="modal" data-bs-target="#EnquireModal">Enquire Now</button>
-                    </div>
-                    <div class="actual_services_images">
-                        <object data="/static/Domain.svg" class="services_SVG"></object>
-                        <!-- <img src="/static/icons/web development.jpg" alt="Web Design"> -->
-                    </div>
-                </div>
-            </div>
+      <div class="technology_part">
+        <div class="technology_part_1">
+          <h1>Let's Talk about what we can build together</h1>
+          <p>
+            Whatever may be your requirement - be it a simple website design, a
+            complex data driven web application development, an ecommerce
+            website, a logo and brand identity design, a video production or a
+            full fledged digital marketing campaign - we have a solution for
+            you.
+          </p>
+          <button
+            class="contact_us_button"
+            data-bs-toggle="modal"
+            data-bs-target="#EnquireModal">
+            Contact us now and Get Started
+          </button>
         </div>
-        </div>
+      </div>
 
-        <div class="technology_part">
-            <div class="technology_part_1">
-            <h1>Let's Talk about what we can build together</h1>
-            <p>Whatever may be your requirement - be it a simple website design, 
-                a complex data driven web application development, an ecommerce website, 
-                a logo and brand identity design, a video production or a full fledged digital marketing campaign - we have a solution for you.</p>
-            <button class="contact_us_button" data-bs-toggle="modal" data-bs-target="#EnquireModal">Contact us now and Get Started</button>
-            </div>
-        </div>
-        
-        <div class="footer">
-            <div class="footer_start  common_footer">
-                <!-- <svg id="SVG_Logo" class="SVG_logo_Class" width="100%" height="80" viewBox="270 110 20 200">
+      <div class="footer">
+        <div class="footer_start common_footer">
+          <!-- <svg id="SVG_Logo" class="SVG_logo_Class" width="100%" height="80" viewBox="270 110 20 200">
                     <path stroke="#EC994B" fill="none" stroke-width="4" id="Color_Fill_1" data-name="Color Fill 1" class="cls-1" d="M128.75,126.643v99.25c0,52.25,26,72,60.5,72,36.5,0,63.75-21.25,63.75-73v-98.25H231v99.75c0,37.25-16,53.75-41,53.75-22.5,0-39.25-16-39.25-53.75v-99.75h-22ZM404,272.393c-8.75,4.25-22.25,7-35.5,7-41,0-64.75-26.5-64.75-67.75,0-44.25,26.25-69.5,65.75-69.5,14,0,25.75,3,34,7l5.25-17.75c-5.75-3-19-7.5-40-7.5-52.25,0-88,35.75-88,88.5,0,55.25,35.75,85.25,83.25,85.25,20.5,0,36.5-4,44.5-8Z"/>
                   </svg>
                 <svg id="SVG_Logo" style="background:black; margin:auto; margin-top:0;" width="100%" height="120" viewBox="-50 200 1900 400">
                     <path stroke="#EC994B" fill="none" stroke-width="6" id="Color_Fill_2" data-name="Color Fill 2" class="cls-2" d="M67.383,333.862v85.059q0,12.209-8.4,12.207-8.693,0-8.691-12.207V333.862H10.645v85.156q0,24.9,11.963,38.184t34.521,13.281q22.655,0,36.279-13.672t13.623-36.523V333.862H67.383ZM215.234,415.8q0-21.094-9.863-32.911-12.6-15.135-33.5-15.136a41.254,41.254,0,0,0-30.86,13.037q-12.6,13.036-12.6,32.08v54.3h36.523V412.182q0-8.4,6.836-8.4,6.933,0,6.934,8.4v54.981h36.523V415.8Zm57.812-24.414v-3.321q0-8.5,3.76-13.086t10.693-4.59c0.391,0,1.009.034,1.856,0.1V332.2l-3.906-.1a46.844,46.844,0,0,0-25.733,7.959,49.855,49.855,0,0,0-18.408,20.557q-4.786,9.864-4.785,23.828v82.715h36.523v-37.5h16.309V391.382H273.046Zm41.406-9.034q-15.039,14.6-15.039,35.987a48.673,48.673,0,0,0,15.039,35.888,51.517,51.517,0,0,0,72.412.049,50.513,50.513,0,0,0,.2-71.631q-14.8-14.891-35.5-14.892Q329.491,367.749,314.452,382.348Zm46.192,25.684a15.111,15.111,0,0,1-.049,20.752,13.694,13.694,0,0,1-19.922,0,15.111,15.111,0,0,1-.049-20.752A13.918,13.918,0,0,1,360.644,408.032Zm56.445-74.17v133.3h36.523v-133.3H417.089ZM534.96,413.647q0,19.434-14.063,19.434a13.97,13.97,0,0,1-10.058-4.053,13.023,13.023,0,0,1-4.2-9.717,13.81,13.81,0,0,1,4.052-10.01,13.1,13.1,0,0,1,9.717-4.15,14.566,14.566,0,0,1,8.984,3.516V368.432q-6.543-.585-9.765-0.586-20.313,0-35.156,15.039T469.628,418.53q0,21.291,14.941,35.937t36.719,14.649a50.563,50.563,0,0,0,21.338-4.785,47.925,47.925,0,0,0,17.138-12.891q11.72-14.062,11.719-36.426V333.862H534.96v79.785ZM590.721,369.8v97.363h36.524V369.8H590.721Zm5.518-38.233a17.28,17.28,0,0,0-.293,24.854,20.109,20.109,0,0,0,26.269,0,17.281,17.281,0,0,0-.292-24.854A18.4,18.4,0,0,0,596.239,331.567ZM735.545,415.8q0-21.094-9.863-32.911-12.6-15.135-33.5-15.136a41.251,41.251,0,0,0-30.859,13.037q-12.6,13.036-12.6,32.08v54.3h36.523V412.182q0-8.4,6.836-8.4,6.933,0,6.934,8.4v54.981h36.523V415.8Zm66.113,12.988a12.747,12.747,0,0,1-9.326-3.711,12.5,12.5,0,0,1-3.759-9.277,12.972,12.972,0,0,1,3.955-9.327,12.506,12.506,0,0,1,9.228-4.052q12.4,0,12.4,15.332V454.37q0,12.109-5.371,18.6t-15.234,6.494a29.79,29.79,0,0,1-14.453-3.906v33.2q11.034,3.612,18.262,3.613,23.73,0,38.525-16.259t14.8-42.334V421.753q0-24.317-9.961-37.11a41.079,41.079,0,0,0-16.406-12.3,53.82,53.82,0,0,0-21.875-4.59q-21.486,0-36.231,14.355t-14.746,35.254q0,19.337,12.256,32.715t29.932,13.379a43.552,43.552,0,0,0,15.136-2.93v-33.5a15.391,15.391,0,0,1-7.129,1.758h0Zm204.542-5.176q-7.47,7.521-20.069,7.52-12.4,0-20.508-8.545t-8.106-21.631q0-13.573,8.252-22.363t20.948-8.789q19.922,0,27.053,21.874l42.48-2.832q-5.67-24.609-19.34-38.378-19.725-19.923-49.217-19.922-29.98,0-50.439,20.312t-20.459,50.1q0,29.589,20.068,49.56t49.854,19.971q29.3,0,47.513-17.578t22.31-49.8l-41.5-1.074Q1013.66,416.089,1006.2,423.608Zm108.64-55.859q-19.245,0-30.76,12.549t-11.52,33.642v53.223h36.52V420.971q0-15.234,9.96-15.234a14.348,14.348,0,0,1,6.93,2.148V368.823a74.669,74.669,0,0,0-11.13-1.074h0Zm117.97,49.8q0-21.093-14.4-35.5-14.415-14.4-35.6-14.4-21.675,0-36.57,14.746t-14.89,36.133q0,21.485,14.74,36.035t36.43,14.551a51.071,51.071,0,0,0,32.32-11.426l-20.8-25q-5.085,5.47-10.55,5.469a12.773,12.773,0,0,1-10.89-5.86q-4.14-5.859-4.15-15.332,0-9.081,4.3-14.892a13.265,13.265,0,0,1,11.13-5.811q10.26,0,12.21,10.84h-18.55a25.563,25.563,0,0,0-.49,17.285h55.37q0.39-4.687.39-6.836h0Zm59.96,15.625a12.924,12.924,0,0,1-9.67-3.906,14.364,14.364,0,0,1,10.35-24.121,12.388,12.388,0,0,1,10.11,4.59q3.765,4.592,3.76,12.305v45.117h36.52V419.409q0-23.925-13.62-37.744t-37.25-13.819q-21.2,0-35.99,14.746a48.843,48.843,0,0,0-14.8,35.938q0,21.779,14.65,36.23t36.62,14.453a48.359,48.359,0,0,0,8.21-.781V430.639a16.587,16.587,0,0,1-8.89,2.539h0Zm68.36-99.316v79.98q0,20.8,8.4,33.4a47.254,47.254,0,0,0,17.63,15.625,49.605,49.605,0,0,0,23.38,5.761q1.365,0,4.2-.1V430.151q-9.765,0-13.42-4.4-3.675-4.393-3.67-16.015h16.41V371.167h-16.41v-37.3h-36.52Zm70.9,35.938v97.363h36.52V369.8h-36.52Zm5.52-38.233a17.288,17.288,0,0,0-.3,24.854,20.111,20.111,0,0,0,26.27,0,17.276,17.276,0,0,0-.29-24.854A18.392,18.392,0,0,0,1437.55,331.567Zm61.57,50.781q-15.045,14.6-15.04,35.987a48.659,48.659,0,0,0,15.04,35.888,51.514,51.514,0,0,0,72.41.049,50.52,50.52,0,0,0,.2-71.631q-14.805-14.891-35.5-14.892Q1514.15,367.749,1499.12,382.348Zm46.19,25.684a15.112,15.112,0,0,1-.05,20.752,13.691,13.691,0,0,1-19.92,0,15.112,15.112,0,0,1-.05-20.752,13.314,13.314,0,0,1,9.96-4.248A13.454,13.454,0,0,1,1545.31,408.032Zm143.26,7.764q0-21.094-9.86-32.911-12.6-15.135-33.5-15.136a41.264,41.264,0,0,0-30.86,13.037q-12.6,13.036-12.6,32.08v54.3h36.53V412.182q0-8.4,6.83-8.4,6.945,0,6.94,8.4v54.981h36.52V415.8Zm71.29-44.629q-19.05,0-29.79,10.449-6.15,5.958-8.15,12.012t-2.78,21q-0.585,9.18-4.35,12.841t-12.55,3.663h-1.66V469.8h5.08q18.84,0,29.1-6.054,19.335-11.62,21.88-39.844,0.78-8.5,3.66-11.377t10.59-2.881V371.167h-11.03Z"/>
                   </svg> -->
-                  <a href="/index.html"><img class = "footer_logo" src="/static/icons/ATI_BLACK.png" alt=""></a>
-            </div>
-            <div class="vl"></div>
-            <div class="footer_left common_footer">
-                <h2>Industries we Cater to</h2>
-                <div class="footer_left_1">
-                <div class="left_footer_left">
-                    <ul>
-                        <li>Technology</li>
-                        <li>Food & Drinks</li>
-                        <li>Entertainment & Arts</li>
-                        <li>Business and Consulting</li>
-                        <li>Agriculture</li>
-                        <li>Personal Blogs</li>
-                    </ul>
-                </div>
-                <div class="left_footer_right">
-                    <ul>
-                        <li>Travel and Hotel</li>
-                        <li>Lifestyle</li>
-                        <li>Healthcare</li>
-                        <li>Automotive</li>
-                        <li>Sports & More</li>
-                    </ul>
-                </div>
-            </div>
-            </div>
-            <div class="vl"></div>
-            <div class="footer_middle common_footer">
-                <h2>Who We Are</h2>
-                <div class="footer_middle_div">
-                    <ul>
-                        <li>
-                            <a href="/index.html">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/HTML/Technologies.html">
-                                Technologies
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/HTML/Services.html">
-                                Services
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/HTML/AboutUs.html">
-                                About Us
-                            </a>    
-                        </li>
-                        <li>
-                            <a href="/HTML/Contact.html">
-                                Contact Us
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="vl"></div>
-            <div class="footer_right common_footer">
-                <div class="preloader"></div>
-                <div class="alert alert-warning toggle-send-message-notification-empty alert-dismissible fade show" role="alert">
-                    Please Fill the Form Before Submitting.
-                  </div>
-                <div class="alert alert-success toggle-send-message-notification alert-dismissible fade show" role="alert">
-                    Your Message Has Been Sent Successfully.
-                  </div>
-                  <div class="alert alert-danger toggle-send-message-notification-error alert-dismissible fade show" role="alert">
-                      Your Message Could not be sent. Please try again later.
-                    </div>
-                <h2>Request A Quote</h2>
-                <input type="text" id="Sender_Email" placeholder="Email*">
-                <textarea name="Quote_Message" id="Sender_Message" cols="30" rows="10" placeholder="Message*"></textarea>
-                <button class="btn" onclick="Submitted_Quote_Form();">Submit</button>
-            </div>
+          <a href="/index"
+            ><img class="footer_logo" src="/static/icons/ATI_BLACK.png" alt=""
+          /></a>
         </div>
-
-
-
-    </div>
-
-    <div class="modal fade modal-lg" id="EnquireModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-body">
-                <div class="modal_sub_body">
-                    <div class="icons_to_contact">
-                        <div class="phone_div">
-                            
-                            <i class="fa fa-phone" aria-hidden="true"> Call</i>
-                            <!-- <img src="/static/icons/Phone.gif" alt=""> -->
-                            <a href="tel:9643624075"><p>
-                                9643624075
-                            </p>
-                        </a>
-                        </div>
-
-                        <div class="whatsapp_div">
-                            <!-- <i class="fa-brands fa-whatsapp" aria-hidden="true"> Whatsapp</i> -->
-                            <!-- <i class="fa-brands fa-github-square"></i> -->
-                            <i class="fa-whatsapp fa-brands" aria-hidden="true"> Whatsapp</i>
-                            <a href="https://api.whatsapp.com/send?phone=9643624075"><p>
-                                9643624075
-                            </p>
-                        </a>
-                        </div>
-                        <div class="mail_div">
-                            
-                            <i class="fa fa-envelope" aria-hidden="true"> Mail</i>
-                            <!-- <img src="/static/icons/mail_logo.gif" alt=""> -->
-                            <a href="mailto:connect.unfoldingcreations@gmail.com">
-                            <p>Email Us
-                                <!-- <br> -->
-                                <!-- connect.unfoldingcreations@gmail.com -->
-                            </p>
-                        </a>
-                        </div>
-                    </div>
-                    <div class="vl_Modal"></div>
-                    <div class="form-enquiry-outer-wrapper">
-                        <h2>Enquire Now</h2>
-                    <div class="form_enquiry">
-                        <div class="alert alert-warning toggle-Enquiry-Form-notification-empty alert-dismissible fade show" role="alert">
-                            Please Fill up the Details before Submitting the Enquiry Form.
-                          </div>
-                        <div class="alert alert-success toggle-Enquiry-Form-notification alert-dismissible fade show" role="alert">
-                            We Have Received your Query and Will reach out to you shortly.
-                          </div>
-                  
-                          <div class="alert alert-danger toggle-Enquiry-Form-notification-error alert-dismissible fade show" role="alert">
-                            Your Message Could not be sent. Please try again later.
-                          </div>
-                          
-                        <div class="preloader_Enquiry_form"></div>
-                        <input type="text" id="Sender_Name" placeholder="Name">
-                        <input type="text" id="Sender_Email_Enquiry_Form" placeholder="Email">
-                        <input type="text" id="Sender_Phone" placeholder="Phone">
-                        <select name="service" id="Sender_Service">
-                        <option value="">Select</option>
-                        <option value="Web Development">Web Development</option>
-                        <option value="Web Designing">Web Designing</option>
-                        <option value="SEO">Search Engine Optimization</option>
-                        <option value="Digital Marketing">Digital Marketing</option>
-                        <option value="Website Maintaince">Website Maintaince</option>
-                        <option value="Domain Hosting">Domain Hosting</option>
-                        <option value="Domain Registration">Domain Registration</option>
-                        <option value="Other">Other</option>
-                        </select>
-                        <textarea name="" cols="30" rows="10" id="Sender_Message_Enquiry_Form" placeholder="Write Your Message Here"></textarea>
-                        <button class="Send_Message" onclick="Submitted_Contact_Form();">Submit</button>
-                    </div>
-                </div>
-                </div>
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="float:right;">Close</button>
+        <div class="vl"></div>
+        <div class="footer_left common_footer">
+          <h2>Industries we Cater to</h2>
+          <div class="footer_left_1">
+            <div class="left_footer_left">
+              <ul>
+                <li>Technology</li>
+                <li>Food & Drinks</li>
+                <li>Entertainment & Arts</li>
+                <li>Business and Consulting</li>
+                <li>Agriculture</li>
+                <li>Personal Blogs</li>
+              </ul>
+            </div>
+            <div class="left_footer_right">
+              <ul>
+                <li>Travel and Hotel</li>
+                <li>Lifestyle</li>
+                <li>Healthcare</li>
+                <li>Automotive</li>
+                <li>Sports & More</li>
+              </ul>
             </div>
           </div>
         </div>
+        <div class="vl"></div>
+        <div class="footer_middle common_footer">
+          <h2>Who We Are</h2>
+          <div class="footer_middle_div">
+            <ul>
+              <li>
+                <a href="/"> Home </a>
+              </li>
+              <li>
+                <a href="/HTML/Technologies"> Technologies </a>
+              </li>
+              <li>
+                <a href="/HTML/Services"> Services </a>
+              </li>
+              <li>
+                <a href="/HTML/AboutUs"> About Us </a>
+              </li>
+              <li>
+                <a href="/HTML/Contact"> Contact Us </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="vl"></div>
+        <div class="footer_right common_footer">
+          <div class="preloader"></div>
+          <div
+            class="alert alert-warning toggle-send-message-notification-empty alert-dismissible fade show"
+            role="alert">
+            Please Fill the Form Before Submitting.
+          </div>
+          <div
+            class="alert alert-success toggle-send-message-notification alert-dismissible fade show"
+            role="alert">
+            Your Message Has Been Sent Successfully.
+          </div>
+          <div
+            class="alert alert-danger toggle-send-message-notification-error alert-dismissible fade show"
+            role="alert">
+            Your Message Could not be sent. Please try again later.
+          </div>
+          <h2>Request A Quote</h2>
+          <input type="text" id="Sender_Email" placeholder="Email*" />
+          <textarea
+            name="Quote_Message"
+            id="Sender_Message"
+            cols="30"
+            rows="10"
+            placeholder="Message*"></textarea>
+          <button class="btn" onclick="Submitted_Quote_Form();">Submit</button>
+        </div>
       </div>
+    </div>
+
+    <div
+      class="modal fade modal-lg"
+      id="EnquireModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="modal_sub_body">
+              <div class="icons_to_contact">
+                <div class="phone_div">
+                  <i class="fa fa-phone" aria-hidden="true"> Call</i>
+                  <!-- <img src="/static/icons/Phone.gif" alt=""> -->
+                  <a href="tel:9643624075"><p>9643624075</p> </a>
+                </div>
+
+                <div class="whatsapp_div">
+                  <!-- <i class="fa-brands fa-whatsapp" aria-hidden="true"> Whatsapp</i> -->
+                  <!-- <i class="fa-brands fa-github-square"></i> -->
+                  <i class="fa-whatsapp fa-brands" aria-hidden="true">
+                    Whatsapp</i
+                  >
+                  <a href="https://api.whatsapp.com/send?phone=9643624075"
+                    ><p>9643624075</p>
+                  </a>
+                </div>
+                <div class="mail_div">
+                  <i class="fa fa-envelope" aria-hidden="true"> Mail</i>
+                  <!-- <img src="/static/icons/mail_logo.gif" alt=""> -->
+                  <a href="mailto:connect.unfoldingcreations@gmail.com">
+                    <p>
+                      Email Us
+                      <!-- <br> -->
+                      <!-- connect.unfoldingcreations@gmail.com -->
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="vl_Modal"></div>
+              <div class="form-enquiry-outer-wrapper">
+                <h2>Enquire Now</h2>
+                <div class="form_enquiry">
+                  <div
+                    class="alert alert-warning toggle-Enquiry-Form-notification-empty alert-dismissible fade show"
+                    role="alert">
+                    Please Fill up the Details before Submitting the Enquiry
+                    Form.
+                  </div>
+                  <div
+                    class="alert alert-success toggle-Enquiry-Form-notification alert-dismissible fade show"
+                    role="alert">
+                    We Have Received your Query and Will reach out to you
+                    shortly.
+                  </div>
+
+                  <div
+                    class="alert alert-danger toggle-Enquiry-Form-notification-error alert-dismissible fade show"
+                    role="alert">
+                    Your Message Could not be sent. Please try again later.
+                  </div>
+
+                  <div class="preloader_Enquiry_form"></div>
+                  <input type="text" id="Sender_Name" placeholder="Name" />
+                  <input
+                    type="text"
+                    id="Sender_Email_Enquiry_Form"
+                    placeholder="Email" />
+                  <input type="text" id="Sender_Phone" placeholder="Phone" />
+                  <select name="service" id="Sender_Service">
+                    <option value="">Select</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Web Designing">Web Designing</option>
+                    <option value="SEO">Search Engine Optimization</option>
+                    <option value="Digital Marketing">Digital Marketing</option>
+                    <option value="Website Maintaince">
+                      Website Maintaince
+                    </option>
+                    <option value="Domain Hosting">Domain Hosting</option>
+                    <option value="Domain Registration">
+                      Domain Registration
+                    </option>
+                    <option value="Other">Other</option>
+                  </select>
+                  <textarea
+                    name=""
+                    cols="30"
+                    rows="10"
+                    id="Sender_Message_Enquiry_Form"
+                    placeholder="Write Your Message Here"></textarea>
+                  <button
+                    class="Send_Message"
+                    onclick="Submitted_Contact_Form();">
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+              style="float: right">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="/js/jquery-3.6.0.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
@@ -401,53 +464,46 @@
     <script src="/js/index.js"></script>
     <script src="/anime.min.js" type="text/javascript"></script>
     <script type="text/javascript">
-        new FinisherHeader({
-          "count": 48,
-          "size": {
-            "min": 234,
-            "max": 821,
-            "pulse": 0.7
+      new FinisherHeader({
+        count: 48,
+        size: {
+          min: 234,
+          max: 821,
+          pulse: 0.7,
+        },
+        speed: {
+          x: {
+            min: 0.1,
+            max: 0.9,
           },
-          "speed": {
-            "x": {
-              "min": 0.1,
-              "max": 0.9
-            },
-            "y": {
-              "min": 0.1,
-              "max": 0.3
-            }
+          y: {
+            min: 0.1,
+            max: 0.3,
           },
-          "colors": {
-            "background": "#9138e5",
-            "particles": [
-              "#6bd6ff",
-              "#ffcb57",
-              "#ff333d"
-            ]
-          },
-          "blending": "overlay",
-          "opacity": {
-            "center": 1,
-            "edge": 0.1
-          },
-          "skew": 0,
-          "shapes": [
-            "c"
-          ]
-        });
-        </script>
-        <script>
-        
-            anime({
-                targets:'#SVG_Logo path',
-                strokeDashoffset:[anime.setDashoffset,0],
-                easing:'easeInOutQuad',
-                duration:2000,
-                direction:'alternate',
-                // changeComplete: anim => setTimeout(() => anim.restart()),
-                loop:true
-            });
-        </script>
-</body>
+        },
+        colors: {
+          background: "#9138e5",
+          particles: ["#6bd6ff", "#ffcb57", "#ff333d"],
+        },
+        blending: "overlay",
+        opacity: {
+          center: 1,
+          edge: 0.1,
+        },
+        skew: 0,
+        shapes: ["c"],
+      });
+    </script>
+    <script>
+      anime({
+        targets: "#SVG_Logo path",
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: "easeInOutQuad",
+        duration: 2000,
+        direction: "alternate",
+        // changeComplete: anim => setTimeout(() => anim.restart()),
+        loop: true,
+      });
+    </script>
+  </body>
 </html>
