@@ -189,17 +189,16 @@ nav .logo {
     width: 220px;
   }
   @media screen and (max-width: 650px) {
-    .logo_design {
-      /* position: relative; */
-      margin-left: 0;
-      width: 90%;
-/*       height: 5vh; */
-      min-height: 70%;
-    }
-  }
-/*   @media screen and (max-width: 450px) {
-    .logo_design {
-      height: 3vh;
-    }
-  } */
+    .small_LOGO{
+            display:block;
+        }
+        .Large_LOGO{
+            display:none;
+        }
+        .logo_design{
+            /* margin-left:20px; */
+            margin-left:0;
+            width: 90%;
+            height: 80%;
+        }
 }
