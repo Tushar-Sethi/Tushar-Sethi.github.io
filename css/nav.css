@@ -193,13 +193,13 @@ nav .logo {
       /* position: relative; */
       margin-left: 0;
       width: 90%;
-      height: 5vh;
-      min-height: 30%;
+/*       height: 5vh; */
+      min-height: 70%;
     }
   }
-  @media screen and (max-width: 450px) {
+/*   @media screen and (max-width: 450px) {
     .logo_design {
       height: 3vh;
     }
-  }
+  } */
 }
