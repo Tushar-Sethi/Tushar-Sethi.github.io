@@ -190,10 +190,16 @@ nav .logo {
   }
   @media screen and (max-width: 650px) {
     .logo_design {
+      /* position: relative; */
       margin-left: 0;
       width: 90%;
-      height: 70%;
-      position: fixed;
+      height: 5vh;
+      min-height: 30%;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .logo_design {
+      height: 3vh;
     }
   }
 }
